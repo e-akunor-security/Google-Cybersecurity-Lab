@@ -1,0 +1,27 @@
+==========================================================
+             NMAP NETWORK SCANNING GUIDE
+==========================================================
+
+1. BASIC SCANS
+- Scan a single IP:      nmap 192.168.1.1
+- Scan a range:          nmap 192.168.1.1-50
+- Scan a whole network:  nmap 192.168.1.0/24
+
+2. DISCOVERY FLAGS (The "Eyes")
+- -p [port]:   Scan specific port (e.g., -p 4444)
+- -p-:         Scan ALL 65,535 ports (Very slow!)
+- -F:          Fast scan (Top 100 ports only)
+
+3. ENUMERATION FLAGS (The "Deep Dive")
+- -sV:   Service Version (Finds out WHAT is running)
+- -sC:   Default Scripts (Checks for common vulnerabilities)
+- -O:    OS Detection (Guessing if it is Windows or Linux)
+- -A:    Aggressive Mode (Does -sV, -sC, and -O all at once)
+
+4. STEALTH & BYPASS
+- -sS:   TCP SYN Scan (Quiet, doesn't finish the connection)
+- -Pn:   No Ping (Scan even if the target blocks ping)
+
+EXAMPLE OF A PROFESSIONAL SCAN:
+nmap -sV -sC -A -Pn [Target_IP]
+==========================================================

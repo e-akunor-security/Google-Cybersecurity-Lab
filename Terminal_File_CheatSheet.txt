@@ -1,0 +1,27 @@
+==========================================================
+          TERMINAL FILE MANAGEMENT CHEAT SHEET
+==========================================================
+
+1. VIEWING & OPENING FILES
+- ls          : List files in current folder
+- cat [file]  : Read file content directly in terminal
+- head [file] : View the first 10 lines
+- nano [file] : Open file in a text editor to change it
+
+2. CREATING & STORING
+- touch [file]: Create a new empty file
+- mkdir [dir] : Create a new folder (directory)
+- cp [s] [d]  : Copy a file from source to destination
+- mv [s] [d]  : Move or RENAME a file
+
+3. DELETING (BE CAREFUL!)
+- rm [file]   : Delete a file
+- rm -r [dir] : Delete a folder and everything inside it
+
+4. DOWNLOADING FROM THE WEB
+- wget [URL]  : Download a file from a direct link
+- curl -O [URL]: Download and keep the original filename
+
+5. COMPRESSING (For your Library)
+- tar -czvf lab.tar.gz [folder] : Zip a folder
+==========================================================

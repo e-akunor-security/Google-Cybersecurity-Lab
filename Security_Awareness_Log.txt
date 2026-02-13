@@ -1,0 +1,22 @@
+==========================================================
+             REAL-WORLD SECURITY LESSON #1
+==========================================================
+TOPIC: Fake Software & Trojans
+DATE: February 2026
+
+OBSERVATION: 
+Downloaded a "Netflix" installer for Linux. Realized 
+there is no official app for this platform.
+
+THREAT: 
+Unofficial installers are often "Trojans" that 
+execute a Reverse Shell or Keylogger in the background.
+
+ACTION TAKEN: 
+File deleted immediately without execution.
+
+LESSON: 
+1. Only download from official repositories (sudo apt).
+2. If an app doesn't exist officially, use a browser.
+3. Trust your gut—if it feels "off," it is a threat.
+==========================================================

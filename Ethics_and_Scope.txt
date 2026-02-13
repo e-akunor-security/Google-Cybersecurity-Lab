@@ -1,0 +1,21 @@
+==========================================================
+             CYBER LAB: RULES OF ENGAGEMENT
+==========================================================
+
+1. CONSENT: 
+   Never test on a device without the owner's permission.
+   (Even if it's your wife, or she might change the Wi-Fi 
+   password on you!)
+
+2. NO DESTRUCTION: 
+   In a "Closed Port" scan, we observe. We do not 
+   brute force or delete files.
+
+3. DATA PRIVACY: 
+   If a scan reveals a password or personal file, 
+   the analyst must stop and report it.
+
+4. THE "REVERSE" RULE:
+   If ports are closed, the only ethical way in is 
+   through a "User-Authorized" reverse connection.
+==========================================================

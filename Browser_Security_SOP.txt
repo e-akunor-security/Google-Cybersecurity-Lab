@@ -1,0 +1,20 @@
+==========================================================
+             BROWSER SECURITY & PRIVACY
+==========================================================
+
+1. OFFICIAL SOURCE:
+   Only download Chrome/Brave/Edge from the official 
+   .deb links. Never from "Free Software" blogs.
+
+2. EXTENSIONS TO USE:
+   - uBlock Origin: Blocks malicious ads and trackers.
+   - Privacy Badger: Stops sites from spying on you.
+
+3. COOKIE SAFETY:
+   Clear your "Session Cookies" after doing 
+   cybersecurity lab work to ensure no data leakage.
+
+4. THE "SANDBOX" ADVANTAGE:
+   Browsers are safer than apps because they are 
+   "sandboxed"—restricted from touching your system.
+==========================================================

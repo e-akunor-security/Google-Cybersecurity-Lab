@@ -1,0 +1,20 @@
+==========================================================
+          POST-DOWNLOAD COMMAND REFERENCE
+==========================================================
+
+1. FOR INSTALLERS (.deb files):
+   Command: sudo dpkg -i [file.deb]
+   (Used for apps like Chrome, Discord, etc.)
+
+2. FOR COMPRESSED FILES (.tar.gz):
+   Command: tar -xzvf [file.tar.gz]
+   (This "unzips" the folder so you can see inside).
+
+3. FOR SCRIPTS (.sh or .py):
+   Command: chmod +x [file]  -> (Unlocks the file)
+   Command: ./[file]         -> (Runs the file)
+
+4. SAFETY CHECK:
+   Always run 'file [filename]' to see what the 
+   terminal thinks the file actually is.
+==========================================================

@@ -1,0 +1,20 @@
+==========================================================
+             SAFE SOFTWARE INSTALLATION (APT)
+==========================================================
+
+1. UPDATE THE CATALOG:
+   Command: sudo apt update
+
+2. UPGRADE EVERYTHING (Security Patches):
+   Command: sudo apt upgrade
+
+3. INSTALL NEW TOOL:
+   Command: sudo apt install [name]
+
+4. UNINSTALL / CLEANUP:
+   Command: sudo apt remove [name]
+   Command: sudo apt autoremove (Cleans up leftover junk)
+
+PRO TIP: If it's not in "apt", think twice before 
+downloading it from a browser.
+==========================================================

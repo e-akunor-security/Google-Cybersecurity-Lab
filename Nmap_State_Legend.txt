@@ -1,0 +1,20 @@
+==========================================================
+             NMAP STATE INTERPRETATION
+==========================================================
+
+1. OPEN:
+   The service (like Netcat) is running and waiting for 
+   you. The "door" is wide open.
+
+2. CLOSED:
+   The firewall is NOT blocking you, but the program 
+   isn't running. You're knocking on an empty house.
+
+3. FILTERED:
+   A firewall is blocking the scan. Nmap can't even 
+   tell if the "door" exists.
+
+4. UNKNOWN:
+   Usually means Nmap is confused by the response. 
+   Try adding the "-sV" flag for more detail.
+==========================================================

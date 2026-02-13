@@ -1,0 +1,16 @@
+==========================================================
+             CYBER FORENSICS: THE LOGS
+==========================================================
+
+1. LOCATION: 
+   Almost all logs live in the /var/log/ directory.
+
+2. KEY FILES:
+   - auth.log: Security & Logins
+   - kern.log: Hardware & Kernel issues
+   - ufw.log: Firewall blocks (The "Wall's" history)
+
+3. THE GOAL: 
+   We don't read logs for fun; we read them to find 
+   "Anomalies" (things that shouldn't be there).
+==========================================================

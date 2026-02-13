@@ -1,0 +1,19 @@
+==========================================================
+             NETWORK DISCOVERY & TARGETING
+==========================================================
+
+1. FINDING YOUR OWN IP:
+   Command: hostname -I
+   (Used to tell the attacker where to connect).
+
+2. TESTING CONNECTIVITY:
+   Command: ping [Target_IP]
+   (If this fails, the firewall or network is blocking you).
+
+3. REMOTE CONNECTION:
+   Command: nc [Target_IP] [Port]
+   (The real-world version of the Netcat attack).
+
+NOTE: Both laptops MUST be on the same Wi-Fi/Router 
+for this to work without advanced configuration.
+==========================================================
