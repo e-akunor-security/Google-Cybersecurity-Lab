@@ -1,0 +1,22 @@
+==========================================================
+             INCIDENT RESPONSE REPORT #001
+==========================================================
+STATUS: RESOLVED
+ANALYST: Emmanuel Akunor
+ASSET: Linux-Latitude-3410
+
+1. DETECTION: 
+   Suspicious file 'backdoor_shell.sh' identified in 
+   user directory.
+
+2. ANALYSIS: 
+   File contained a reverse shell command (Netcat).
+   SHA256 Hash created for threat intelligence sharing.
+
+3. CONTAINMENT/ERADICATION: 
+   Permissions revoked (chmod 000). 
+   File securely deleted from filesystem.
+
+4. RECOMMENDATION: 
+   Audit 'auth.log' to see how the file was uploaded.
+==========================================================
