@@ -1,0 +1,11 @@
+==========================================================
+             LAB PREP: NETWORK RECONNAISSANCE
+==========================================================
+TOOL: Nmap (Network Mapper)
+GOAL: Identify active hosts and open ports.
+
+SAFETY RULES:
+1. Only scan systems you own or have permission to test.
+2. Start with 'Stealth' scans to avoid crashing services.
+3. Document everything.
+==========================================================

@@ -1,0 +1,11 @@
+==========================================================
+             NMAP QUICK REFERENCE GUIDE
+==========================================================
+BASIC SCAN:  nmap [target_IP]
+STEALTH:     sudo nmap -sS [target_IP]
+VERSIONS:    nmap -sV [target_IP]
+ALL PORTS:   nmap -p- [target_IP]
+
+MOST COMMON PORTS TO WATCH:
+22 (SSH), 80 (HTTP), 443 (HTTPS), 445 (SMB), 3389 (RDP)
+==========================================================
