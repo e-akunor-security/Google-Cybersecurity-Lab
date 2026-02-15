@@ -1,0 +1,13 @@
+==========================================================
+             LINUX LOG ANALYSIS CHECKLIST
+==========================================================
+Location: /var/log/
+
+1. AUTHENTICATION: Check auth.log for "Failed" or "Accepted"
+2. FIREWALL: Check ufw.log for blocked IP addresses (SRC=)
+3. SYSTEM HEALTH: Check syslog for kernel errors.
+
+CRITICAL COMMANDS:
+- tail -n 20: View last 20 lines.
+- grep "error": Search for specific keywords.
+==========================================================

@@ -1,0 +1,22 @@
+==========================================================
+             GITHUB VERSION CONTROL COMMANDS
+==========================================================
+
+1. CHECK STATUS: 
+   Command: git status 
+   (See which files have changed since last time).
+
+2. STAGE CHANGES: 
+   Command: git add . 
+   (Prepare all files for upload).
+
+3. COMMIT: 
+   Command: git commit -m "Description of work done"
+
+4. PUSH: 
+   Command: git push 
+   (Upload files to the internet).
+
+WHY? Recruiters use this to see your consistency and 
+your ability to document technical work.
+==========================================================

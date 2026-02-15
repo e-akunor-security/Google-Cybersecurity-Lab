@@ -1,0 +1,39 @@
+==========================================================
+             LAB: LINUX SYSTEM LOG ANALYSIS
+==========================================================
+DATE: $(date)
+ANALYST: Emmanuel Akunor
+LOCATION: /var/log/
+==========================================================
+
+1. AUTHENTICATION AUDIT (The "Who is coming in?" Log)
+----------------------------------------------------------
+Command: sudo tail -n 20 /var/log/auth.log
+Purpose: Checks for logins, logouts, and 'sudo' commands.
+Key Terms to Search:
+   - "Accepted password": A successful login.
+   - "authentication failure": A wrong password was entered.
+
+2. FIREWALL ANALYSIS (The "Digital Door" Log)
+----------------------------------------------------------
+Command: sudo grep "BLOCK" /var/log/ufw.log | tail -n 10
+Purpose: Shows the last 10 attempts blocked by the firewall.
+Key Fields:
+   - SRC: The IP address of the person trying to connect.
+   - DPT: The "Port" they were trying to use (e.g., 22 for SSH).
+
+3. SYSTEM HEALTH (The "General Events" Log)
+----------------------------------------------------------
+Command: sudo tail -f /var/log/syslog
+Purpose: Real-time monitoring of system events and errors.
+Usage: Use 'Ctrl + C' to stop the live feed.
+
+4. INSTALLATION HISTORY (The "Software Audit" Log)
+----------------------------------------------------------
+Command: grep "install " /var/log/dpkg.log
+Purpose: Lists every piece of software installed on this machine.
+Why: Essential for detecting "Shadow IT" or malicious tools.
+
+==========================================================
+         "The Analyst's Eye: Look for Patterns"
+==========================================================
