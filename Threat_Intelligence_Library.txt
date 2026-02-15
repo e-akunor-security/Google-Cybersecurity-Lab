@@ -1,0 +1,12 @@
+==========================================================
+             THREAT HUNTING: SIGNS OF INFECTION
+==========================================================
+Analyst: Emmanuel Akunor
+Subject: Indicators of Compromise (IoCs)
+
+1. NETWORK: Unexpected outbound traffic on ports 4444, 8080.
+2. PROCESSES: Unknown binaries running from /tmp or /var/tmp.
+3. AUTH: Multiple "Failed Password" entries in /var/log/auth.log.
+4. FILES: Sudden appearance of .encrypted extensions (Ransomware).
+5. SCHEDULING: New, suspicious entries in 'crontab -l'.
+==========================================================
