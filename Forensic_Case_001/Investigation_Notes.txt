@@ -1,0 +1,7 @@
+==========================================================
+        CASE 001: UNAUTHORIZED SYSTEM ACCESS
+==========================================================
+ANALYST: Emmanuel Akunor
+STATUS: Open
+EVIDENCE DIRECTORY: ~/Desktop/CyberLab/Forensic_Case_001
+==========================================================
