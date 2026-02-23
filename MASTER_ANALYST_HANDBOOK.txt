@@ -49,3 +49,12 @@ PHASE 5: TERMINAL AUTOMATION (ALIASES)
 * Rapid SOP Access:        handbook
 * Network/Firewall Check:  shield
 ================================================================
+
+----------------------------------------------------------------
+PHASE 6: DIGITAL FORENSICS (HUNTING FOR ARTIFACTS)
+----------------------------------------------------------------
+* Find Hidden Files:       ls -laR | grep "^\."
+* Check File Timeline:     stat [filename]
+* Hunter's Command:        find /home -mtime -2 (Files changed in last 2 days)
+* Audit Sudo Usage:        grep "sudo" /var/log/auth.log
+================================================================
