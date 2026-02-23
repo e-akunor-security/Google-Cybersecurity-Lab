@@ -1,0 +1,43 @@
+================================================================
+            MASTER CYBERSECURITY ANALYST HANDBOOK
+================================================================
+Analyst: Emmanuel Akunor
+Location: Netherlands (EU)
+Last Updated: $(date)
+
+----------------------------------------------------------------
+PHASE 1: RECONNAISSANCE & ASSET DISCOVERY
+----------------------------------------------------------------
+* Find Local IP/Subnet:    ip addr | grep "inet 192"
+* Map Local Network:       sudo nmap -sn -PR [Subnet].0/24
+* Identify OS/Services:    sudo nmap -sV -O [Target_IP]
+* Full Port Scan:          nmap -p- [Target_IP]
+
+----------------------------------------------------------------
+PHASE 2: VULNERABILITY ASSESSMENT & HARDENING
+----------------------------------------------------------------
+* Check Firewall:          sudo ufw status verbose
+* Enable Stealth Mode:     sudo ufw default deny incoming
+* Allow Trusted Service:   sudo ufw allow [Port_Number]
+* Close Printer Port:      sudo systemctl stop cups
+
+----------------------------------------------------------------
+PHASE 3: MONITORING & LOG ANALYSIS
+----------------------------------------------------------------
+* Watch Auth Logs:         sudo tail -f /var/log/auth.log
+* Find Failed Logins:      grep "Failed password" /var/log/auth.log
+* Real-time Connections:   ss -tunlp
+
+----------------------------------------------------------------
+PHASE 4: INCIDENT RESPONSE (MALWARE DEFENSE)
+----------------------------------------------------------------
+* Identify Resource Hog:   top (then press 'P' for CPU)
+* Find Process by Name:    ps aux | grep [Process_Name]
+* Freeze Suspicious App:   sudo kill -STOP [PID]
+* Terminate Process:       sudo kill -9 [PID]
+* Check Persistence:       crontab -l
+
+================================================================
+"Visibility is the first step of defense. If you can't see it, 
+you can't protect it."
+================================================================
