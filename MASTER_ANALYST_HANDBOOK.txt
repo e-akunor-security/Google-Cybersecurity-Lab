@@ -42,3 +42,10 @@ PHASE 4: INCIDENT RESPONSE (MALWARE DEFENSE)
 you can't protect it."
 ================================================================
 ENVIRONMENT OPTIMIZATION: Created 'handbook' alias for rapid SOP access.
+
+----------------------------------------------------------------
+PHASE 5: TERMINAL AUTOMATION (ALIASES)
+----------------------------------------------------------------
+* Rapid SOP Access:        handbook
+* Network/Firewall Check:  shield
+================================================================
