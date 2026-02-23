@@ -5,3 +5,10 @@ ANALYST: Emmanuel Akunor
 STATUS: Open
 EVIDENCE DIRECTORY: ~/Desktop/CyberLab/Forensic_Case_001
 ==========================================================
+
+HUNTING CHECKLIST:
+[ ] Check /tmp for suspicious scripts.
+[ ] Search home directory for hidden files (ls -la).
+[ ] Inspect /dev/shm for memory-resident malware.
+[ ] Review crontab for unauthorized scheduled tasks.
+==========================================================
