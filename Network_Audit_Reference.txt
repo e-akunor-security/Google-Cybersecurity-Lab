@@ -1,0 +1,18 @@
+==========================================================
+             NETWORK AUDIT COMMAND REFERENCE
+==========================================================
+1. FIND MY NETWORK:
+   ip addr | grep "inet 192"
+   (Identifies if you are on 192.168.1.x, 192.168.0.x, etc.)
+
+2. DISCOVER ALL DEVICES (The "Silent" Scan):
+   sudo nmap -sn -PR 192.168.x.0/24
+   (Uses ARP to find devices that hide from normal pings.)
+
+3. IDENTIFY DEVICE BRAND:
+   The MAC Address in the Nmap output (e.g., Apple, Samsung).
+
+4. TARGETED SCAN:
+   nmap -sV -p- [Target_IP]
+   (Checks all 65,535 ports on a specific suspicious device.)
+==========================================================

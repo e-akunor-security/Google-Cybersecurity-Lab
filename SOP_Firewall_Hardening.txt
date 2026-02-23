@@ -1,0 +1,20 @@
+==========================================================
+             SOP: HOST-BASED FIREWALL HARDENING
+==========================================================
+Analyst: Emmanuel Akunor
+System: Linux Mint (UFW)
+
+OBJECTIVE: 
+Minimize the attack surface by implementing a "Default Deny" 
+policy and logging all unauthorized connection attempts.
+
+PROCEDURE:
+1. Initialize UFW: sudo ufw enable
+2. Set Policy: sudo ufw default deny incoming
+3. Enable Logging: sudo ufw logging on
+4. Verification: Run 'nmap 127.0.0.1' to confirm zero open ports.
+
+RECOVERY:
+If a legitimate service is blocked, use 'sudo ufw allow [port]' 
+to restore access.
+==========================================================

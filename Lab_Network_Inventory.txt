@@ -1,0 +1,28 @@
+==========================================================
+             LAB: HOME NETWORK DISCOVERY
+==========================================================
+DATE: $(date)
+ANALYST: Emmanuel Akunor
+NETWORK RANGE: 192.168.1.0/24
+
+METHODOLOGY:
+Used 'nmap -sn' to perform a host discovery ping sweep.
+Identified active nodes and verified MAC addresses against 
+known household devices.
+
+FINDINGS:
+- Total Hosts Found: [Insert your number here]
+- Verified Devices: [Laptop, Phone, Router, etc.]
+- Unauthorized Devices: None detected.
+==========================================================
+TROUBLESHOOTING LOG:
+Initial scan of 192.168.1.0/24 returned 0 hosts.
+Verified local IP using 'ip addr'. Corrected network range for scan.
+
+----------------------------------------------------------
+FIREWALL HARDENING UPDATE: $(date)
+----------------------------------------------------------
+- Status: UFW Enabled
+- Policy: Default Deny Incoming
+- Result: Host is now "Stealth" to external port scans.
+==========================================================

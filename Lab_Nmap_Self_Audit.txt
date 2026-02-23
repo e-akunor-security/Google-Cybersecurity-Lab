@@ -1,0 +1,22 @@
+==========================================================
+             LAB: NMAP SELF-RECONNAISSANCE
+==========================================================
+DATE: $(date)
+TARGET: 127.0.0.1 (Localhost)
+ANALYST: Emmanuel Akunor
+
+FINDINGS:
+$(nmap 127.0.0.1 | grep "open")
+
+SUMMARY:
+Checked local ports for potential entry points. 
+Ensuring only necessary services are exposed to the network.
+==========================================================
+----------------------------------------------------------
+DETAILED OS & SERVICE DATA:
+OS details: Linux 5.0 - 5.7
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+----------------------------------------------------------
+VULNERABILITY ASSESSMENT:
+Identified Port 631 (CUPS) as OPEN. Service is used for printing.
+ACTION: Service is verified as non-critical. Systems can be hardened by stopping 'cups' service.
