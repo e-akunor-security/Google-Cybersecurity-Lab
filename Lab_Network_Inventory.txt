@@ -26,3 +26,13 @@ FIREWALL HARDENING UPDATE: $(date)
 - Policy: Default Deny Incoming
 - Result: Host is now "Stealth" to external port scans.
 ==========================================================
+
+----------------------------------------------------------
+SUCCESSFUL NETWORK AUDIT: $(date)
+----------------------------------------------------------
+- Network Identified: 192.168.2.0/24
+- Method: ARP Scan (-PR)
+- Total Hosts Found: [Add the number you saw here]
+- Security Note: Firewall (UFW) verified as active. 
+  Self-scan confirms host is in Stealth Mode (Filtered).
+==========================================================
