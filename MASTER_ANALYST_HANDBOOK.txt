@@ -41,3 +41,4 @@ PHASE 4: INCIDENT RESPONSE (MALWARE DEFENSE)
 "Visibility is the first step of defense. If you can't see it, 
 you can't protect it."
 ================================================================
+ENVIRONMENT OPTIMIZATION: Created 'handbook' alias for rapid SOP access.
