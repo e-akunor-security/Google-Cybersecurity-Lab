@@ -83,3 +83,12 @@ TROUBLESHOOTING: TERMINAL NOISE
 * Cause: Background apps trying to reach retired Google API services.
 * Fix: Update the application (Chrome/Brave) or kill the process.
 ================================================================
+
+----------------------------------------------------------------
+LINUX SKILLS: OUTPUT REDIRECTION
+----------------------------------------------------------------
+* Silence Errors: [command] 2> /dev/null
+* Total Silence:  [command] > /dev/null 2>&1 &
+* Why use it: To prevent background "noise" (like GCM errors) 
+  from cluttering your investigation terminal.
+================================================================
