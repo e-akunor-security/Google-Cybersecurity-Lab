@@ -1,0 +1,9 @@
+==========================================================
+        SOC WORKSTATION: KNOWN SYSTEM ERRORS
+==========================================================
+1. ERROR: [google_apis/gcm/engine/registration_request.cc]
+   MESSAGE: "Registration response error message: DEPRECATED_ENDPOINT"
+   CAUSE: Chrome background service trying to reach retired Google APIs.
+   STATUS: Non-Malicious. Software-level noise.
+   REMEDIATION: Restart Chrome or use '2> /dev/null' to silence.
+==========================================================
