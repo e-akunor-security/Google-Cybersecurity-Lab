@@ -67,3 +67,11 @@ PHASE 4 (UPDATE): PERSISTENCE & BACKDOOR HUNTING
 * Check Active Services:   systemctl list-units --type=service
 * Check Startup Scripts:   ls -la /etc/init.d/
 ================================================================
+
+----------------------------------------------------------------
+SIEM vs. COMMAND LINE
+----------------------------------------------------------------
+* Command Line: Manual investigation tool (The Magnifying Glass).
+* SIEM (Wazuh): Automated monitoring & correlation (The Security Camera).
+* Key Concept: Commands like 'grep' are the foundation of SIEM search queries.
+================================================================
