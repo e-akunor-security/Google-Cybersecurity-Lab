@@ -1,0 +1,22 @@
+==========================================================
+        LINUX CORE CONCEPTS FOR CYBERSECURITY
+==========================================================
+1. HIDDEN FILES (.filename):
+   Linux hides files starting with a dot. 
+   Use 'ls -la' to see them.
+
+2. THE /tmp DIRECTORY:
+   "World-Writable" storage. Always check here for 
+   malicious scripts (staging area).
+
+3. THE ROOT ( / ):
+   The top-level directory. Everything starts here.
+
+4. PERSISTENCE (Crontab):
+   Used to schedule recurring tasks. 
+   Check 'crontab -l' to find hidden "Heartbeats."
+
+5. FILE IDENTIFICATION:
+   Use the 'file' command to see a file's true identity 
+   regardless of its extension (e.g., .jpg vs .sh).
+==========================================================

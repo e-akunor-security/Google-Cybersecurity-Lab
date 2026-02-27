@@ -58,3 +58,12 @@ PHASE 6: DIGITAL FORENSICS (HUNTING FOR ARTIFACTS)
 * Hunter's Command:        find /home -mtime -2 (Files changed in last 2 days)
 * Audit Sudo Usage:        grep "sudo" /var/log/auth.log
 ================================================================
+
+----------------------------------------------------------------
+PHASE 4 (UPDATE): PERSISTENCE & BACKDOOR HUNTING
+----------------------------------------------------------------
+* List User Cron Jobs:     crontab -l
+* List System Cron Jobs:   ls -la /etc/cron.*
+* Check Active Services:   systemctl list-units --type=service
+* Check Startup Scripts:   ls -la /etc/init.d/
+================================================================
