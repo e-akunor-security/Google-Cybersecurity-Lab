@@ -75,3 +75,11 @@ SIEM vs. COMMAND LINE
 * SIEM (Wazuh): Automated monitoring & correlation (The Security Camera).
 * Key Concept: Commands like 'grep' are the foundation of SIEM search queries.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: TERMINAL NOISE
+----------------------------------------------------------------
+* Error: DEPRECATED_ENDPOINT (GCM)
+* Cause: Background apps trying to reach retired Google API services.
+* Fix: Update the application (Chrome/Brave) or kill the process.
+================================================================
