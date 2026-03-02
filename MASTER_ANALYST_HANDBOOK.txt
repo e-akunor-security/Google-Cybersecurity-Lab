@@ -111,3 +111,13 @@ UPDATED: LOG INSPECTION BASICS
 * Live Log Watch:          tail -f /var/log/auth.log
   (Use 'tail -f' to watch a hacker try to log in in real-time!)
 ================================================================
+
+----------------------------------------------------------------
+PHASE 8: NETWORK FINGERPRINTING (MAC ADDRESSES)
+----------------------------------------------------------------
+* Capture with MACs:       sudo tcpdump -e -w [file].pcap
+* Read MACs from PCAP:     tcpdump -e -r [file].pcap
+* Verify My MAC:           ip link show
+* Why it matters: MAC addresses are physical hardware IDs. 
+  IPs can change, but MACs (usually) stay the same.
+================================================================
