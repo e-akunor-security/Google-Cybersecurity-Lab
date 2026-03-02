@@ -102,3 +102,12 @@ PHASE 7: SAFE EVIDENCE INSPECTION
 * Extract Text from Apps:  strings [file]
 * Real-time Wiretap:       sudo tcpdump -i any -c 10
 ================================================================
+
+----------------------------------------------------------------
+UPDATED: LOG INSPECTION BASICS
+----------------------------------------------------------------
+* Peek at Top:             head -n 20 [file]
+* Peek at Bottom:          tail -n 20 [file]
+* Live Log Watch:          tail -f /var/log/auth.log
+  (Use 'tail -f' to watch a hacker try to log in in real-time!)
+================================================================
