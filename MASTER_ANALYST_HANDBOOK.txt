@@ -121,3 +121,14 @@ PHASE 8: NETWORK FINGERPRINTING (MAC ADDRESSES)
 * Why it matters: MAC addresses are physical hardware IDs. 
   IPs can change, but MACs (usually) stay the same.
 ================================================================
+
+----------------------------------------------------------------
+NETWORKING LOGIC: IP VS MAC
+----------------------------------------------------------------
+* IP (Logical): Like a home address. Used for routing. Changes 
+  depending on location.
+* MAC (Physical): Like a serial number. Unique to the hardware. 
+  Used for device identification.
+* Rule: IPs get the data to the building; MACs get the data 
+  to the specific desk.
+================================================================
