@@ -92,3 +92,13 @@ LINUX SKILLS: OUTPUT REDIRECTION
 * Why use it: To prevent background "noise" (like GCM errors) 
   from cluttering your investigation terminal.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 7: SAFE EVIDENCE INSPECTION
+----------------------------------------------------------------
+* Read Text Safely:        cat [file]
+* Read Long Files:         less [file]
+* Peek at Top:             head -n 20 [file]
+* Extract Text from Apps:  strings [file]
+* Real-time Wiretap:       sudo tcpdump -i any -c 10
+================================================================

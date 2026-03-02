@@ -12,3 +12,6 @@ HUNTING CHECKLIST:
 [ ] Inspect /dev/shm for memory-resident malware.
 [ ] Review crontab for unauthorized scheduled tasks.
 ==========================================================
+[FOUND] Hidden backdoor script in home directory: .hidden_backdoor.sh
+[FOUND] Persistence mechanism identified in Crontab.
+[ANALYSIS] Backdoor script contains unauthorized network commands.
