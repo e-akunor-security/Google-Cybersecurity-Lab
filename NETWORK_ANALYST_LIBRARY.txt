@@ -1,0 +1,21 @@
+==========================================================
+        NETWORK ANALYSIS: COMMAND REFERENCE
+==========================================================
+
+1. THE "WHO" (MAC & IP Identification):
+   Command: sudo tcpdump -i any -e -n
+   -> Use '-e' to find the physical MAC address.
+   -> Use '-n' to keep it in numeric format.
+
+2. THE "WHAT" (Payload Inspection):
+   Command: sudo tcpdump -i any -A
+   -> Use '-A' to read cleartext (passwords, messages).
+
+3. THE "EVIDENCE COLLECTION" (PCAP):
+   Command: sudo tcpdump -i any -w evidence.pcap
+   -> Saves the traffic for later study in Wireshark.
+
+4. THE "FILTER" (Finding the Needle):
+   Command: sudo tcpdump port 443
+   -> Only shows encrypted web traffic.
+==========================================================

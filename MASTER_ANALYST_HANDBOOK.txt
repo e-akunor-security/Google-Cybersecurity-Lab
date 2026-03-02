@@ -132,3 +132,12 @@ NETWORKING LOGIC: IP VS MAC
 * Rule: IPs get the data to the building; MACs get the data 
   to the specific desk.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 9: PAYLOAD INSPECTION (READING DATA)
+----------------------------------------------------------------
+* Read Text in Packets:    sudo tcpdump -A -i [interface]
+* Hex and ASCII View:      sudo tcpdump -X -i [interface]
+* Why it matters: Use -A to find cleartext passwords, chat 
+  messages, or "Secret" data being sent over the wire.
+================================================================
