@@ -161,3 +161,13 @@ PHASE 11: INCIDENT RESPONSE WORKFLOW (BLOCKING)
 * Block:   sudo ufw deny from [Attacker_IP]
 * Verify:  sudo ufw status
 ================================================================
+
+----------------------------------------------------------------
+PHASE 14: WEB VULNERABILITY (SQL INJECTION)
+----------------------------------------------------------------
+* Concept: Exploiting the way a website talks to its database.
+* The Test: Using a single quote (') to trigger a syntax error.
+* The Bypass: Using ' OR 1=1 -- to trick logic into being "True."
+* The Defense: "Input Sanitization" and "Prepared Statements." 
+  Never trust data coming from a user's keyboard!
+================================================================
