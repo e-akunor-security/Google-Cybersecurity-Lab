@@ -171,3 +171,24 @@ PHASE 14: WEB VULNERABILITY (SQL INJECTION)
 * The Defense: "Input Sanitization" and "Prepared Statements." 
   Never trust data coming from a user's keyboard!
 ================================================================
+
+----------------------------------------------------------------
+PHASE 15: WEB RECONNAISSANCE (ENUMERATION)
+----------------------------------------------------------------
+* Tool: Nmap Scripting Engine (NSE)
+* Command: nmap -p 80 --script http-enum [target]
+* Purpose: To find hidden directories and "forgotten" files 
+  on a web server that could lead to a breach.
+* Ethical Rule: Only scan targets you have explicit permission 
+  to test. Unauthorized scanning is illegal.
+================================================================
+
+----------------------------------------------------------------
+PHASE 16: SECRET MANAGEMENT & PUSH PROTECTION
+----------------------------------------------------------------
+* The Risk: Pushing API keys or Tokens to GitHub (Secret Leaking).
+* The Solution: .gitignore file.
+* Command: echo "filename" >> .gitignore
+* Lesson: GitHub Push Protection is a critical "Safety Net" that 
+  prevents credentials from becoming public.
+================================================================
