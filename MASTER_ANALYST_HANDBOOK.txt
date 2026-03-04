@@ -152,3 +152,12 @@ PHASE 10: USER AUDITING & AUTHENTICATION
 * Why it matters: Hackers use "Brute Force" to guess passwords. 
   Monitoring auth.log is the first step in detecting an active attack.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 11: INCIDENT RESPONSE WORKFLOW (BLOCKING)
+----------------------------------------------------------------
+* Detect:  sudo grep "failed" /var/log/auth.log
+* Identify: Find the offending IP address in the log.
+* Block:   sudo ufw deny from [Attacker_IP]
+* Verify:  sudo ufw status
+================================================================
