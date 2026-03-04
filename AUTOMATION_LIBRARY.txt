@@ -1,0 +1,20 @@
+==========================================================
+        SECURITY AUTOMATION: BASH SCRIPTING
+==========================================================
+
+1. THE SHEBANG ( #!/bin/bash ):
+   Tells the computer this is a script, not just text.
+
+2. VARIABLES ( LOG_FILE="/path" ):
+   Saves data so you don't have to type it over and over.
+
+3. COMMAND SUBSTITUTION ( FAIL_COUNT=$(...) ):
+   Saves the *result* of a command into a variable.
+
+4. IF/THEN LOGIC:
+   The "Brain" of the script. 
+   If [ $COUNT -gt 5 ] -> Then ALERT.
+
+5. PERMISSIONS ( chmod +x ):
+   The command that turns a text file into a tool.
+==========================================================
