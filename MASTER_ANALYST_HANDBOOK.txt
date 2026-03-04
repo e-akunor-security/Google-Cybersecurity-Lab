@@ -141,3 +141,14 @@ PHASE 9: PAYLOAD INSPECTION (READING DATA)
 * Why it matters: Use -A to find cleartext passwords, chat 
   messages, or "Secret" data being sent over the wire.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 10: USER AUDITING & AUTHENTICATION
+----------------------------------------------------------------
+* The Auth Log:            /var/log/auth.log
+* Search for Failures:     sudo grep "authentication failure" /var/log/auth.log
+* Watch Logins Live:       sudo tail -f /var/log/auth.log
+* Firewall Status:         sudo ufw status
+* Why it matters: Hackers use "Brute Force" to guess passwords. 
+  Monitoring auth.log is the first step in detecting an active attack.
+================================================================
