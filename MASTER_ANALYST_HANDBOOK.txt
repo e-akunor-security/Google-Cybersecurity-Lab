@@ -243,3 +243,12 @@ PHASE 15: WEB RECONNAISSANCE (ENUMERATION)
 * Ethical Rule: Only scan targets you have explicit permission 
   to test. Unauthorized scanning is illegal.
 ================================================================
+
+----------------------------------------------------------------
+PROJECT: LIVE ASSET AUDIT (dejavuprotects.net)
+----------------------------------------------------------------
+* Target: Personal Business Website.
+* Audit Tools: Nmap (NSE scripts: vuln, http-enum).
+* Goal: Identify outdated services and exposed admin directories.
+* Result: [Insert if you found anything or if it was "Clean"].
+================================================================
