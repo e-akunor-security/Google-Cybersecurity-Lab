@@ -192,3 +192,24 @@ PHASE 16: SECRET MANAGEMENT & PUSH PROTECTION
 * Lesson: GitHub Push Protection is a critical "Safety Net" that 
   prevents credentials from becoming public.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 16: SECRET MANAGEMENT & PUSH PROTECTION
+----------------------------------------------------------------
+* The Risk: Pushing API keys or Tokens to GitHub (Secret Leaking).
+* The Solution: .gitignore file.
+* Command: echo "filename" >> .gitignore
+* Lesson: GitHub Push Protection is a critical "Safety Net" that 
+  prevents credentials from becoming public.
+================================================================
+
+----------------------------------------------------------------
+PHASE 10: USER AUDITING & AUTHENTICATION
+----------------------------------------------------------------
+* The Auth Log:            /var/log/auth.log
+* Search for Failures:     sudo grep "authentication failure" /var/log/auth.log
+* Watch Logins Live:       sudo tail -f /var/log/auth.log
+* Firewall Status:         sudo ufw status
+* Why it matters: Hackers use "Brute Force" to guess passwords. 
+  Monitoring auth.log is the first step in detecting an active attack.
+================================================================
