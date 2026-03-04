@@ -18,14 +18,3 @@
 5. PERMISSIONS ( chmod +x ):
    The command that turns a text file into a tool.
 ==========================================================
-
-----------------------------------------------------------------
-PHASE 12: IPS & DISASTER RECOVERY
-----------------------------------------------------------------
-* IPS (Intrusion Prevention): Using scripts to automatically 
-  change firewall rules based on log data.
-* Data Recovery: Use 'git clone [URL]' to download your entire 
-  portfolio to a new machine.
-* The "Final" Command: Always 'git push' at the end of the day 
-  to ensure your "Cloud Backup" is up to date.
-================================================================
