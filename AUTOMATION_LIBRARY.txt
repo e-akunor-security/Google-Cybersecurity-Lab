@@ -29,3 +29,14 @@ PHASE 12: IPS & DISASTER RECOVERY
 * The "Final" Command: Always 'git push' at the end of the day 
   to ensure your "Cloud Backup" is up to date.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 13: CRON AUTOMATION (THE HEARTBEAT)
+----------------------------------------------------------------
+* Command: crontab -e
+* Syntax: [Min] [Hour] [Day] [Month] [Weekday] [Command]
+* Example: * * * * * (Runs every single minute)
+* Why it matters: This turns a "Script" into a "Service." 
+  A real SOC analyst automates repetitive tasks so they can 
+  focus on high-level threat hunting.
+================================================================
