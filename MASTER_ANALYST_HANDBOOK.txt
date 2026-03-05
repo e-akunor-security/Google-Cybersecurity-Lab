@@ -307,3 +307,13 @@ FORENSIC VERIFICATION: PORT 3306 EXPOSURE
 * Mitigation: Check IPv6 firewall rules and force 'localhost' 
   database connections.
 ================================================================
+
+----------------------------------------------------------------
+INCIDENT ESCALATION: VENDOR COMMUNICATION
+----------------------------------------------------------------
+* Status: Open / Under Investigation
+* Action: Escalated to Hostinger Support regarding IPv6 Port 3306.
+* Data Provided: Client Source IP, Target Hostname, and Telnet Banner.
+* Goal: Confirm if the exposure is due to a misconfigured 
+  Dual-Stack (IPv4/IPv6) firewall on shared hosting.
+================================================================
