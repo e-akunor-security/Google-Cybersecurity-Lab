@@ -264,3 +264,13 @@ CASE STUDY: dejavuprotects.net AUDIT
 * Recommendation: Restrict Port 3306 access to 'localhost' only to prevent 
   database brute-force attempts.
 ================================================================
+
+----------------------------------------------------------------
+VULNERABILITY REMEDIATION: dejavuprotects.net
+----------------------------------------------------------------
+* Identified Risk: Exposed MariaDB Port (3306).
+* Action Taken: Disabled Remote MySQL access in hosting panel.
+* Result: Port changed from 'open' to 'filtered'.
+* Secondary Action: Implemented HTTPS redirection and renamed 
+  the administrative login path.
+================================================================
