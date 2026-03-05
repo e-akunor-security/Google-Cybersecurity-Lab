@@ -295,3 +295,15 @@ RISK MITIGATION: PERSISTENT OPEN PORTS
 * Mitigation 3: Escalated to hosting provider for infrastructure-level blocking.
 * Note: If you cannot "Remove" the threat, you must "Harden" the target.
 ================================================================
+
+----------------------------------------------------------------
+FORENSIC VERIFICATION: PORT 3306 EXPOSURE
+----------------------------------------------------------------
+* Method: telnet [target] 3306
+* Result: Connected. Banner Revealed (11.8.3-MariaDB-log).
+* Discovery: The connection was established over IPv6. 
+* Hypothesis: Hosting provider may have IPv4 restrictions in place 
+  while leaving IPv6 ports unfiltered.
+* Mitigation: Check IPv6 firewall rules and force 'localhost' 
+  database connections.
+================================================================
