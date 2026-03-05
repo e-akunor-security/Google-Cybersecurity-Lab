@@ -285,3 +285,13 @@ PHASE 17: BANNER GRABBING & ENUMERATION
 * Defense: Disable public access to database ports and configure 
   services to hide version headers.
 ================================================================
+
+----------------------------------------------------------------
+RISK MITIGATION: PERSISTENT OPEN PORTS
+----------------------------------------------------------------
+* Scenario: Port 3306 remains 'open' despite hosting panel changes.
+* Mitigation 1: Increased password complexity to 30+ characters.
+* Mitigation 2: Applied "Principle of Least Privilege" to DB users.
+* Mitigation 3: Escalated to hosting provider for infrastructure-level blocking.
+* Note: If you cannot "Remove" the threat, you must "Harden" the target.
+================================================================
