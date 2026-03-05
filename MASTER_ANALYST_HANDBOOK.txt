@@ -274,3 +274,14 @@ VULNERABILITY REMEDIATION: dejavuprotects.net
 * Secondary Action: Implemented HTTPS redirection and renamed 
   the administrative login path.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 17: BANNER GRABBING & ENUMERATION
+----------------------------------------------------------------
+* Concept: Forcing a service to reveal its name and version.
+* Evidence: Found in Nmap output under "fingerprint-strings."
+* The Risk: Reveals the exact software version, allowing hackers 
+  to search for specific "Exploits" or "CVEs."
+* Defense: Disable public access to database ports and configure 
+  services to hide version headers.
+================================================================
