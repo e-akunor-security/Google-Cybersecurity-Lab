@@ -339,3 +339,13 @@ PHASE 18: WEB RECON & DIRECTORY FUZZING
   - 404 Not Found: File does not exist (Secure).
 * Tooling: For professional audits, use 'ffuf' or 'dirb'.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 19: SESSION SECURITY (COOKIES)
+----------------------------------------------------------------
+* Logic: Cookies are the "ID Cards" of the web. 
+* Risk: If stolen, an attacker can bypass MFA and Passwords.
+* Defense 1 (HttpOnly): Prevents JavaScript from reading the cookie.
+* Defense 2 (Secure): Ensures the cookie is only sent via HTTPS.
+* Verification: Inspected via Browser Dev Tools (Application > Cookies).
+================================================================
