@@ -369,3 +369,13 @@ AUDIT REPORT: dejavuprotects.net ENUMERATION
 * Security Posture: LiteSpeed server is stable, but application-level 
   hardening (login cloaking) is needed to reduce attack surface.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 25: LOGIN CLOAKING (DECEPTION)
+----------------------------------------------------------------
+* Method: WPS Hide Login Plugin.
+* Logic: Renaming /wp-admin and /wp-login.php to a non-guessable string.
+* Defense: Prevents 99% of automated "Brute Force" and "Dictionary" 
+  attacks by returning a 404 error on standard paths.
+* Verification: curl -I https://dejavuprotects.net/wp-login.php returns 404.
+================================================================
