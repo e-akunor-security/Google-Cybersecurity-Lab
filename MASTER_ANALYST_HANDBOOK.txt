@@ -398,3 +398,13 @@ TROUBLESHOOTING: CLOAKING FAILURES
   rewrite rules in .htaccess.
 * Goal: Force the server to recognize the 404 redirection.
 ================================================================
+
+----------------------------------------------------------------
+MAINTENANCE: CLEARING SERVER CACHE
+----------------------------------------------------------------
+* Tool: LiteSpeed Cache Toolbox.
+* Command: Purge All.
+* Purpose: To ensure security configuration changes (like URL 
+  cloaking) take effect immediately across all edge nodes.
+* Note: Always verify with 'curl -I' after a cache purge.
+================================================================
