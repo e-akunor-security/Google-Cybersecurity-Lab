@@ -388,3 +388,13 @@ ASSET MANAGEMENT: BROWSER HARDENING
 * Audit: Periodically review 'chrome://extensions' to remove 
   unused or suspicious plugins.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: CLOAKING FAILURES
+----------------------------------------------------------------
+* Issue: wp-login.php still returns 200 OK after plugin activation.
+* Probable Cause: Server-side caching (LiteSpeed).
+* Resolution: Perform 'Purge All' on LiteSpeed cache and verify 
+  rewrite rules in .htaccess.
+* Goal: Force the server to recognize the 404 redirection.
+================================================================
