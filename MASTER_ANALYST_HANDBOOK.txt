@@ -379,3 +379,12 @@ PHASE 25: LOGIN CLOAKING (DECEPTION)
   attacks by returning a 404 error on standard paths.
 * Verification: curl -I https://dejavuprotects.net/wp-login.php returns 404.
 ================================================================
+
+----------------------------------------------------------------
+ASSET MANAGEMENT: BROWSER HARDENING
+----------------------------------------------------------------
+* Tool: Browser Extensions (Puzzle Piece Icon).
+* Policy: Only install verified security extensions (NordPass/uBlock).
+* Audit: Periodically review 'chrome://extensions' to remove 
+  unused or suspicious plugins.
+================================================================
