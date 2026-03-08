@@ -327,3 +327,15 @@ INCIDENT ESCALATION: VENDOR COMMUNICATION
 * Goal: Confirm if the exposure is due to a misconfigured 
   Dual-Stack (IPv4/IPv6) firewall on shared hosting.
 ================================================================
+
+----------------------------------------------------------------
+PHASE 18: WEB RECON & DIRECTORY FUZZING
+----------------------------------------------------------------
+* Logic: Searching for hidden files (.env, .git, config.php.bak).
+* Manual Check: curl -I [URL]/[file]
+* Status Codes: 
+  - 200 OK: File found (Potential Breach).
+  - 403 Forbidden: File exists but access is blocked (Secure).
+  - 404 Not Found: File does not exist (Secure).
+* Tooling: For professional audits, use 'ffuf' or 'dirb'.
+================================================================
