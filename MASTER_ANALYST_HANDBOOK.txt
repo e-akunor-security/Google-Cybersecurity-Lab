@@ -349,3 +349,13 @@ PHASE 19: SESSION SECURITY (COOKIES)
 * Defense 2 (Secure): Ensures the cookie is only sent via HTTPS.
 * Verification: Inspected via Browser Dev Tools (Application > Cookies).
 ================================================================
+
+----------------------------------------------------------------
+PHASE 23: ADMINISTRATIVE ENUMERATION
+----------------------------------------------------------------
+* Tool: Nmap --script http-enum
+* Goal: Identify if the administrative login path is public.
+* Findings: [Insert your result here]
+* Hardening: If found, use a plugin or .htaccess rule to rename 
+  the path (e.g., change /wp-admin to /my_secret_portal).
+================================================================
