@@ -437,3 +437,13 @@ VENDOR RISK ASSESSMENT: HOSTINGER SHARED
 * Mitigation Strategy: Implement aggressive application-layer 
   security (complex credentials + .htaccess hardening).
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: UNKNOWN IP IN NMAP SCAN
+----------------------------------------------------------------
+* Identified IP: 213.10.98.187
+* Analysis: False Positive. IP belongs to Hostinger Proxy/Load Balancer.
+* Error Trigger: #HY000Proxy header rejection.
+* Conclusion: Normal behavior for Hostinger shared infrastructure 
+  when queried directly via Nmap.
+================================================================
