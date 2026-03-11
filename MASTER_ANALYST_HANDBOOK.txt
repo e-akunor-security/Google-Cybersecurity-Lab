@@ -427,3 +427,13 @@ VERIFICATION COMPLETE: STEALTH ADMIN ACCESS
 * Security Headers: X-Frame-Options, CSP, and HttpOnly Cookies verified.
 * Persistence: Secret URL bookmarked and saved in Password Manager.
 ================================================================
+
+----------------------------------------------------------------
+VENDOR RISK ASSESSMENT: HOSTINGER SHARED
+----------------------------------------------------------------
+* Status: Risk Accepted (Temporary).
+* Finding: Provider refuses to close Port 3306 on IPv6 interface.
+* Justification: Shared infrastructure limitations.
+* Mitigation Strategy: Implement aggressive application-layer 
+  security (complex credentials + .htaccess hardening).
+================================================================
