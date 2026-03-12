@@ -464,3 +464,15 @@ TRANSITION: FROM DEFENSE TO INCIDENT RESPONSE
 * Goal: Master the 6 stages of Incident Response (PICERL).
 * Skill Focus: Log forensics and rapid containment.
 ================================================================
+
+----------------------------------------------------------------
+IR CHEAT SHEET: CRITICAL LOG LOCATIONS
+----------------------------------------------------------------
+1. Web Access:  /var/log/apache2/access.log (Check for 404/SQLi)
+2. Auth/Login:  /var/log/auth.log (Check for Brute Force)
+3. DB Errors:   /var/log/mysql/error.log (Check for Crashes)
+4. Commands:
+   - tail -n 50: View last 50 lines.
+   - grep -i "error": Search for errors (case insensitive).
+   - awk: Use for advanced log parsing.
+================================================================
