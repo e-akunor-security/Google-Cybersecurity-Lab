@@ -447,3 +447,12 @@ INVESTIGATION: UNKNOWN IP IN NMAP SCAN
 * Conclusion: Normal behavior for Hostinger shared infrastructure 
   when queried directly via Nmap.
 ================================================================
+
+----------------------------------------------------------------
+TECHNIQUE: wp-config.php CLOAKING
+----------------------------------------------------------------
+* Strategy: Moved configuration file to parent directory (outside public_html).
+* Benefit: Prevents accidental clear-text exposure via web server 
+  misconfiguration or local file inclusion (LFI) vulnerabilities.
+* Status: Verified. Site remains functional.
+================================================================
