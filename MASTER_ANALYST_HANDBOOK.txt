@@ -476,3 +476,12 @@ IR CHEAT SHEET: CRITICAL LOG LOCATIONS
    - grep -i "error": Search for errors (case insensitive).
    - awk: Use for advanced log parsing.
 ================================================================
+
+----------------------------------------------------------------
+FORENSICS: THE GREP TOOLKIT
+----------------------------------------------------------------
+* Filter by IP:  grep "[IP_ADDRESS]" [LOG_FILE]
+* Count Hits:    grep -c "[IP_ADDRESS]" [LOG_FILE]
+* Context View:  grep -C [LINES] "[IP_ADDRESS]" [LOG_FILE]
+* Search Pattern: grep -iE "select|union|alert" [LOG_FILE]
+================================================================
