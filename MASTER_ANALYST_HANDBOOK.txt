@@ -456,3 +456,11 @@ TECHNIQUE: wp-config.php CLOAKING
   misconfiguration or local file inclusion (LFI) vulnerabilities.
 * Status: Verified. Site remains functional.
 ================================================================
+
+----------------------------------------------------------------
+TRANSITION: FROM DEFENSE TO INCIDENT RESPONSE
+----------------------------------------------------------------
+* Current Posture: Hardened (Config cloaked, DB secured).
+* Goal: Master the 6 stages of Incident Response (PICERL).
+* Skill Focus: Log forensics and rapid containment.
+================================================================
