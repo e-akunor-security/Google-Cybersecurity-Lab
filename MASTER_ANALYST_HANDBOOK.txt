@@ -541,3 +541,13 @@ VERIFICATION PROTOCOL: POST-INCIDENT AUDIT
 * Goal: Ensure that mitigation steps are active and correctly 
   enforced by the web server.
 ================================================================
+
+----------------------------------------------------------------
+DEFENSE: DEPLOYING ENDPOINT WAF
+----------------------------------------------------------------
+* Tool: Wordfence Security (Free Tier).
+* Configuration: Optimized Firewall via .htaccess auto-prepend.
+* Policy: Aggressive Brute Force Protection (3-strike lockout).
+* Policy: Instant ban for 'admin/root' username attempts.
+* Status: Active / Learning Mode.
+================================================================
