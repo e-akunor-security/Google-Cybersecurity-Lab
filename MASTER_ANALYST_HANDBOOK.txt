@@ -504,3 +504,13 @@ LESSON: CONFIGURATION VS. EXECUTION
 * Protocol: Always verify file paths before using 'nano' or 'vim' 
   via SSH to edit server configurations.
 ================================================================
+
+----------------------------------------------------------------
+WORKFLOW: CLI VS GUI FOR SYSTEM CONFIGURATION
+----------------------------------------------------------------
+* Observation: Web-based File Managers (GUI) often hide critical 
+  dot-files or move settings icons during updates.
+* Solution: Utilize SSH and the 'nano' editor for consistent 
+  access to configuration files (.htaccess, wp-config.php).
+* Command used: ls -la to reveal, nano to modify.
+================================================================
