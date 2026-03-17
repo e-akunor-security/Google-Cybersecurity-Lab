@@ -561,3 +561,13 @@ DEFENSE-IN-DEPTH: COMPLETE STACK DEPLOYMENT
 * Integrity: Wordfence Malware Scanner (Verified clean).
 * Observation: Live Traffic confirms blocked bot activity.
 ================================================================
+
+----------------------------------------------------------------
+STRATEGY: GEOFENCING & EDGE PROTECTION
+----------------------------------------------------------------
+* Concept: Country-level blocking (Geofencing).
+* Manual Method: .htaccess CIDR blocks (High server overhead).
+* Modern Method: Cloudflare WAF (Edge-level blocking).
+* Future Task: Migrate DNS to Cloudflare to enable free 
+  Country Blocking and DDoS protection.
+================================================================
