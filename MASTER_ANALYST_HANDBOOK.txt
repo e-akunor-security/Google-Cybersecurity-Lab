@@ -523,3 +523,12 @@ HARDENING: DEFAULT ASSET SANITIZATION
 * Principle: Attack Surface Reduction—removing unnecessary files 
   to minimize potential entry points for attackers.
 ================================================================
+
+----------------------------------------------------------------
+CAREER DEVELOPMENT: PUBLIC DOCUMENTATION
+----------------------------------------------------------------
+* Action: Published Incident Report on LinkedIn.
+* Goal: Demonstrate technical proficiency and communication 
+  skills to potential employers.
+* Outcome: Building a public-facing security portfolio.
+================================================================
