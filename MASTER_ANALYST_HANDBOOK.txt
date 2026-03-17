@@ -551,3 +551,13 @@ DEFENSE: DEPLOYING ENDPOINT WAF
 * Policy: Instant ban for 'admin/root' username attempts.
 * Status: Active / Learning Mode.
 ================================================================
+
+----------------------------------------------------------------
+DEFENSE-IN-DEPTH: COMPLETE STACK DEPLOYMENT
+----------------------------------------------------------------
+* Layer 1 (Network): .htaccess IP Blacklisting (Manual).
+* Layer 2 (Application): Wordfence WAF (Automated).
+* Layer 3 (Identity): 2FA / Multi-Factor Authentication.
+* Integrity: Wordfence Malware Scanner (Verified clean).
+* Observation: Live Traffic confirms blocked bot activity.
+================================================================
