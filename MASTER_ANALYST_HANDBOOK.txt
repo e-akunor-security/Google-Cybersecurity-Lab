@@ -532,3 +532,12 @@ CAREER DEVELOPMENT: PUBLIC DOCUMENTATION
   skills to potential employers.
 * Outcome: Building a public-facing security portfolio.
 ================================================================
+
+----------------------------------------------------------------
+VERIFICATION PROTOCOL: POST-INCIDENT AUDIT
+----------------------------------------------------------------
+* Command 1: nano .htaccess (Visual audit of IP blacklist).
+* Command 2: curl -I [URL] (Functional audit of 404/403 status).
+* Goal: Ensure that mitigation steps are active and correctly 
+  enforced by the web server.
+================================================================
