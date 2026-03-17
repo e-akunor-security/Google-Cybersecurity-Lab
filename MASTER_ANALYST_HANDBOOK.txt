@@ -485,3 +485,12 @@ FORENSICS: THE GREP TOOLKIT
 * Context View:  grep -C [LINES] "[IP_ADDRESS]" [LOG_FILE]
 * Search Pattern: grep -iE "select|union|alert" [LOG_FILE]
 ================================================================
+
+----------------------------------------------------------------
+LOG ANALYSIS: SHARED HOSTING LIMITATIONS
+----------------------------------------------------------------
+* Constraint: No direct access to /var/log/apache2/ via CLI.
+* Workaround: Access logs via Hostinger hPanel or ~/logs/ directory.
+* Tooling: Download logs locally and use 'grep' on the workstation 
+  rather than the server.
+================================================================
