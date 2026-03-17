@@ -494,3 +494,13 @@ LOG ANALYSIS: SHARED HOSTING LIMITATIONS
 * Tooling: Download logs locally and use 'grep' on the workstation 
   rather than the server.
 ================================================================
+
+----------------------------------------------------------------
+LESSON: CONFIGURATION VS. EXECUTION
+----------------------------------------------------------------
+* Error: Attempted to run Apache .htaccess directives as Bash commands.
+* Correction: .htaccess directives must be placed in the server's 
+  config files, not executed in the CLI.
+* Protocol: Always verify file paths before using 'nano' or 'vim' 
+  via SSH to edit server configurations.
+================================================================
