@@ -514,3 +514,12 @@ WORKFLOW: CLI VS GUI FOR SYSTEM CONFIGURATION
   access to configuration files (.htaccess, wp-config.php).
 * Command used: ls -la to reveal, nano to modify.
 ================================================================
+
+----------------------------------------------------------------
+HARDENING: DEFAULT ASSET SANITIZATION
+----------------------------------------------------------------
+* Action: Deleted 'Hello World' default post (Primary spam target).
+* Action: Implemented .htaccess IP blacklisting for botnet IPs.
+* Principle: Attack Surface Reduction—removing unnecessary files 
+  to minimize potential entry points for attackers.
+================================================================
