@@ -602,3 +602,14 @@ TOOLSET: DIGITAL FORENSICS (EXIFTOOL)
 * Limitations: Metadata is easily stripped by social media 
   platforms (WhatsApp/FB/IG) or manual 'wiping' tools.
 ================================================================
+
+----------------------------------------------------------------
+SOP: EVIDENCE PRESERVATION (IMAGE METADATA)
+----------------------------------------------------------------
+* Critical Rule: Do not use standard IM apps (WhatsApp/Signal) for 
+  transfer unless using 'Document/File' mode.
+* Recommended: Email attachment or Direct Cloud Link.
+* Goal: Maintain file integrity and prevent automatic EXIF stripping.
+* Verification: Run 'exiftool -all=' check upon receipt to confirm 
+  metadata presence.
+================================================================
