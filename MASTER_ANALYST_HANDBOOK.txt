@@ -571,3 +571,13 @@ STRATEGY: GEOFENCING & EDGE PROTECTION
 * Future Task: Migrate DNS to Cloudflare to enable free 
   Country Blocking and DDoS protection.
 ================================================================
+
+----------------------------------------------------------------
+RESEARCH: GEOLOCATION & TRACKING METHODS
+----------------------------------------------------------------
+* OS-Level: Find My Device / Find My iPhone (Requires Account Access).
+* Network-Level: Cell Tower Triangulation (Requires Carrier/Legal Authority).
+* App-Level: Google Maps / WhatsApp Live Sharing (Requires User Consent).
+* Red Flag: Sites claiming "Live GPS by Number Only" are typically 
+  data-scrapers or phishing attempts.
+================================================================
