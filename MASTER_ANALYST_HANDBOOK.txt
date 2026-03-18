@@ -592,3 +592,13 @@ RESEARCH: EMERGENCY GEOLOCATION PROTOCOLS
 * Note: Unauthorized tracking via 3rd-party 'number-only' tools is 
   invalid and poses a secondary security risk (Phishing).
 ================================================================
+
+----------------------------------------------------------------
+TOOLSET: DIGITAL FORENSICS (EXIFTOOL)
+----------------------------------------------------------------
+* Installation: sudo apt install exiftool
+* Primary Use: Extracting GPS, Timestamps, and Hardware IDs.
+* Critical Command: exiftool [file] | grep -i "GPS"
+* Limitations: Metadata is easily stripped by social media 
+  platforms (WhatsApp/FB/IG) or manual 'wiping' tools.
+================================================================
