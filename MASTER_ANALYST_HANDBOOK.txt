@@ -658,3 +658,14 @@ FORENSICS: SQLITE BROWSER AUDIT
 * Mitigation: Use 'Zero-Knowledge' password managers that do 
   not store URLs and usernames in a locally accessible SQLite DB.
 ================================================================
+
+----------------------------------------------------------------
+SECURITY ADVISORY: SQLITE PLAIN-TEXT LEAKAGE
+----------------------------------------------------------------
+* Observation: Chrome's 'Login Data' database stores 'origin_url' 
+  and 'username_value' in plain-text (unencrypted).
+* Risk: High-precision Phishing. An attacker can map a user's 
+  entire digital life (Banks, Emails, Crypto) without a 
+  decryption key.
+* Conclusion: Local database files are a goldmine for Reconnaissance.
+================================================================
