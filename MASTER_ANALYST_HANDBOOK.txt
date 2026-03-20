@@ -613,3 +613,16 @@ SOP: EVIDENCE PRESERVATION (IMAGE METADATA)
 * Verification: Run 'exiftool -all=' check upon receipt to confirm 
   metadata presence.
 ================================================================
+
+----------------------------------------------------------------
+THREAT INTELLIGENCE: CHROME PII EXFILTRATION (2026)
+----------------------------------------------------------------
+* Vector 1: Infostealer Malware (Lumma/Vidar) - Targets Local State 
+  encryption keys to dump cleartext passwords.
+* Vector 2: Malicious Extensions - Abuses 'chrome.cookies' and 
+  'chrome.tabs' APIs for session hijacking and 'prompt poaching'.
+* Vector 3: Social Engineering (ClickFix) - Tricking users into 
+  manual PowerShell execution via fake CAPTCHAs.
+* Mitigation: Migrate sensitive credentials to standalone 
+  Password Managers; Audit extension permissions regularly.
+================================================================
