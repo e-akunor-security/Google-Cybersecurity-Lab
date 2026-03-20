@@ -669,3 +669,16 @@ SECURITY ADVISORY: SQLITE PLAIN-TEXT LEAKAGE
   decryption key.
 * Conclusion: Local database files are a goldmine for Reconnaissance.
 ================================================================
+
+----------------------------------------------------------------
+SOP: BROWSER CREDENTIAL HARDENING
+----------------------------------------------------------------
+* Principle: Zero-Trust Storage.
+* Action 1: Deprecate Browser Password Manager in favor of 
+  Standalone (Bitwarden/KeePassXC).
+* Action 2: Enable 'Encryption at Rest' for Linux Home Directory.
+* Action 3: Decouple Keyring Password from User Login Password 
+  to prevent 'Silent Decryption' by local malware.
+* Action 4: Set Browser to 'Clear Cookies/Passwords' on Exit 
+  for high-sensitivity profiles.
+================================================================
