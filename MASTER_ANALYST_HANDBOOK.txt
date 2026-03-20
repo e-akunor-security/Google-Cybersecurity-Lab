@@ -636,3 +636,14 @@ AUDIT: BROWSER HARDENING (LINUX MINT)
 * Security Policy: Enabled 'Enhanced Protection' via Safe Browsing.
 * Path Verified: ~/.config/google-chrome/Default/ (Secure permissions).
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: CHROME DATA PERSISTENCE (LINUX)
+----------------------------------------------------------------
+* Finding: Chrome data location varies by installation method 
+  (Native vs. Flatpak vs. Snap).
+* Tool: 'find ~ -name "Login Data"' - Essential for locating 
+  sensitive application databases in non-standard paths.
+* Risk: SQLite 'Login Data' file contains encrypted credentials 
+  vulnerable to local keyring-based decryption attacks.
+================================================================
