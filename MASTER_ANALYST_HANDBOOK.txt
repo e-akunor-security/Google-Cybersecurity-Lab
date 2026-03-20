@@ -647,3 +647,14 @@ INVESTIGATION: CHROME DATA PERSISTENCE (LINUX)
 * Risk: SQLite 'Login Data' file contains encrypted credentials 
   vulnerable to local keyring-based decryption attacks.
 ================================================================
+
+----------------------------------------------------------------
+FORENSICS: SQLITE BROWSER AUDIT
+----------------------------------------------------------------
+* Path: ~/.config/google-chrome/[PROFILE]/Login Data
+* Command: sqlite3 [FILE] "SELECT origin_url, username_value FROM logins;"
+* Discovery: This command extracts the 'Digital Footprint'—a list 
+  of all sites and usernames—even without the decryption key.
+* Mitigation: Use 'Zero-Knowledge' password managers that do 
+  not store URLs and usernames in a locally accessible SQLite DB.
+================================================================
