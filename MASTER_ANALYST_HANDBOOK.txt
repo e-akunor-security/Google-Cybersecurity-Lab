@@ -682,3 +682,15 @@ SOP: BROWSER CREDENTIAL HARDENING
 * Action 4: Set Browser to 'Clear Cookies/Passwords' on Exit 
   for high-sensitivity profiles.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: DATABASE CONCURRENCY (SQLITE 5)
+----------------------------------------------------------------
+* Error: 'database is locked (5)'
+* Cause: The parent application (Chrome) holds an active file lock 
+  to prevent data corruption during read/write operations.
+* Workaround: Perform a 'File-Level Snapshot' (cp command) to 
+  bypass the lock and perform offline analysis.
+* Industry Practice: Always work on a copy of the evidence, 
+  never the original 'live' file.
+================================================================
