@@ -626,3 +626,13 @@ THREAT INTELLIGENCE: CHROME PII EXFILTRATION (2026)
 * Mitigation: Migrate sensitive credentials to standalone 
   Password Managers; Audit extension permissions regularly.
 ================================================================
+
+----------------------------------------------------------------
+AUDIT: BROWSER HARDENING (LINUX MINT)
+----------------------------------------------------------------
+* Status: Clean (No 3rd-party extensions detected).
+* OS Layer: Linux Mint (Reduced exposure to Win32 Infostealers).
+* Data Hardening: Disabled Autofill for PII/Payment data.
+* Security Policy: Enabled 'Enhanced Protection' via Safe Browsing.
+* Path Verified: ~/.config/google-chrome/Default/ (Secure permissions).
+================================================================
