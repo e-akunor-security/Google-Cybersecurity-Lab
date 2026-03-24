@@ -727,3 +727,16 @@ FORENSICS: SESSION EXPIRATION AUDIT
 * Defense: Log out of high-value accounts daily to invalidate 
   server-side tokens, regardless of the local cookie's expiry.
 ================================================================
+
+----------------------------------------------------------------
+THREAT ANALYSIS: COOKIE EXFILTRATION VECTORS
+----------------------------------------------------------------
+* Method 1: Database Theft - Copying SQLite files from ~/.config/.
+* Method 2: Keyring Abuse - Requesting decryption secrets from 
+  GNOME Keyring while the user is logged in.
+* Method 3: Memory Scraping - Injecting code into the active 
+  browser process to read tokens in plain-text.
+* Critical Defense: 'Log Out' creates a server-side command to 
+  destroy the session. A stolen cookie from a logged-out session 
+  is useless to an attacker.
+================================================================
