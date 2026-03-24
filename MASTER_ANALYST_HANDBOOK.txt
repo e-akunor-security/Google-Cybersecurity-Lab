@@ -694,3 +694,15 @@ TROUBLESHOOTING: DATABASE CONCURRENCY (SQLITE 5)
 * Industry Practice: Always work on a copy of the evidence, 
   never the original 'live' file.
 ================================================================
+
+----------------------------------------------------------------
+THREAT ANALYSIS: SESSION HIJACKING (COOKIE THEFT)
+----------------------------------------------------------------
+* Target: ~/.config/google-chrome/[PROFILE]/Network/Cookies
+* Mechanism: Exfiltration of session tokens to bypass MFA/2FA.
+* Command: sqlite3 [FILE] "SELECT host_key, name, value FROM cookies;"
+* Vulnerability: Cookies are often 'Bearer Tokens'—whoever holds 
+  them is treated as the authenticated user.
+* Mitigation: Use 'Log Out' on sensitive sites (invalidates server-side 
+  session); Enable hardware-bound session features (DBSC).
+================================================================
