@@ -706,3 +706,13 @@ THREAT ANALYSIS: SESSION HIJACKING (COOKIE THEFT)
 * Mitigation: Use 'Log Out' on sensitive sites (invalidates server-side 
   session); Enable hardware-bound session features (DBSC).
 ================================================================
+
+----------------------------------------------------------------
+FORENSICS: LOCATING SESSION FRAGMENTS
+----------------------------------------------------------------
+* Challenge: Chrome file paths vary by install method (Native/Snap/Flatpak).
+* Tool: 'find ~ -name "Cookies"' - Essential for locating DBs.
+* Key Path (2026): .../Profile [X]/Network/Cookies (SQLite format).
+* Observation: Session cookies serve as Bearer Tokens; possession 
+  of the token equals authenticated access.
+================================================================
