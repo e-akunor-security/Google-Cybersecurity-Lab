@@ -716,3 +716,14 @@ FORENSICS: LOCATING SESSION FRAGMENTS
 * Observation: Session cookies serve as Bearer Tokens; possession 
   of the token equals authenticated access.
 ================================================================
+
+----------------------------------------------------------------
+FORENSICS: SESSION EXPIRATION AUDIT
+----------------------------------------------------------------
+* Path: ~/.config/google-chrome/Profile 1/Cookies
+* Query: SELECT host_key, name, datetime(expires_utc...)
+* Risk: Persistent cookies (long expiry) provide a massive window 
+  for attackers to utilize stolen session tokens.
+* Defense: Log out of high-value accounts daily to invalidate 
+  server-side tokens, regardless of the local cookie's expiry.
+================================================================
