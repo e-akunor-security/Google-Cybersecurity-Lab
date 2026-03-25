@@ -740,3 +740,13 @@ THREAT ANALYSIS: COOKIE EXFILTRATION VECTORS
   destroy the session. A stolen cookie from a logged-out session 
   is useless to an attacker.
 ================================================================
+
+----------------------------------------------------------------
+CRYPTOGRAPHY: GPG FILE SECURITY
+----------------------------------------------------------------
+* Symmetric: gpg -c [file] (Uses a shared passphrase).
+* Decrypt: gpg -d [file.gpg] > [output].
+* Principle: 'Encryption at Rest' ensures that even if a hacker 
+  steals the physical drive or SQLite DB, the data is unreadable.
+* Tooling: GPG (GNU Privacy Guard) / OpenSSL.
+================================================================
