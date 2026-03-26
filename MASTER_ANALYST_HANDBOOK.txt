@@ -834,3 +834,12 @@ INFRASTRUCTURE: MULTI-LEVEL IDENTITY SYNC
 * Resolution: Manual override of 'user.email' and 'user.name' 
   to ensure cryptographic 'Verified' status on remote.
 ================================================================
+
+----------------------------------------------------------------
+AUDIT: GITHUB UI VERIFICATION
+----------------------------------------------------------------
+* Navigation: Repo -> Commits -> [Commit ID] -> 'Verified' Badge.
+* Visual Cue: Green shield or 'Verified' ribbon.
+* Failure State: If missing, check 'Settings -> Emails' to ensure 
+  the GPG-linked email is marked as 'Primary' or 'Verified'.
+================================================================
