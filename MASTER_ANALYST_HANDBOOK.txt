@@ -805,3 +805,12 @@ TROUBLESHOOTING: GIT CREDENTIAL REJECTION
   auth; standard account passwords are deprecated for CLI.
 * Persistence: Set 'credential.helper cache' to avoid repeated prompts.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: CREDENTIAL HELPER SYNTAX
+----------------------------------------------------------------
+* Correct Command: printf "protocol=https\nhost=github.com\n" | git credential reject
+* Note: 'git credential-reject' (hyphenated) is invalid; must use 
+  space-separated subcommands.
+* Reminder: HTTPS pushes require a PAT (Personal Access Token).
+================================================================
