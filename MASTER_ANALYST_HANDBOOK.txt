@@ -795,3 +795,13 @@ TROUBLESHOOTING: GPG EXPORT FAILURES
   UID matching issues.
 ================================================================
 GitHub Identity: Verified with RSA-4096 GPG key.
+
+----------------------------------------------------------------
+TROUBLESHOOTING: GIT CREDENTIAL REJECTION
+----------------------------------------------------------------
+* Issue: Incorrect PAT/Password cached in the credential helper.
+* Fix: git credential-reject (kills the cached session).
+* Requirement: Use GitHub 'Personal Access Token' (PAT) for HTTPS 
+  auth; standard account passwords are deprecated for CLI.
+* Persistence: Set 'credential.helper cache' to avoid repeated prompts.
+================================================================
