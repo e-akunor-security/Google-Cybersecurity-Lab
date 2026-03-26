@@ -783,3 +783,14 @@ CRYPTOGRAPHY: EMAIL & TRANSPORT SECURITY
 * Dependency: Recipient's Public Key must be present in the local 
   keyring (~/.gnupg/pubring.kbx) before encryption is possible.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: GPG EXPORT FAILURES
+----------------------------------------------------------------
+* Error: 'nothing exported' / 'No such file'
+* Fix: Utilize the 16-character Hex ID from 'gpg --list-keys' 
+  instead of the Email UID.
+* Command: gpg --armor --export [HEX_ID] > ~/filename.asc
+* Result: Successfully bypassed directory permissions and 
+  UID matching issues.
+================================================================
