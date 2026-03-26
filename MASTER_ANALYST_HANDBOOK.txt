@@ -862,3 +862,13 @@ MILESTONE: FULL CRYPTOGRAPHIC IDENTITY SYNC
 * Security Impact: Prevents 'Commit Spoofing' and ensures all 
   code changes for dejavuprotects.net are authentically signed.
 ================================================================
+
+----------------------------------------------------------------
+IAM: IDENTITY RESOLUTION PROTOCOL
+----------------------------------------------------------------
+* Issue: Missing 'Verified' status in GitHub GPG settings.
+* Root Cause: Email UID in GPG key not matched to a 'Verified' 
+  email in the GitHub account profile.
+* Resolution: Sync GPG UID with GitHub 'Primary' email and 
+  perform an explicit '-S' (Signed) commit for validation.
+================================================================
