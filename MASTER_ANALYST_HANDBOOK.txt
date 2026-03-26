@@ -872,3 +872,23 @@ IAM: IDENTITY RESOLUTION PROTOCOL
 * Resolution: Sync GPG UID with GitHub 'Primary' email and 
   perform an explicit '-S' (Signed) commit for validation.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: HTTPS AUTHENTICATION FATAL ERROR
+----------------------------------------------------------------
+* Error: 'Password authentication is not supported'.
+* Root Cause: GitHub deprecation of password-based CLI access.
+* Fix: Implementation of Personal Access Token (PAT) via 
+  'git config --global credential.helper store'.
+* Security Note: Tokens should be treated as sensitive as 
+  private keys.
+================================================================
+
+----------------------------------------------------------------
+MILESTONE: FULL CRYPTOGRAPHIC IDENTITY SYNC
+----------------------------------------------------------------
+* Result: GPG RSA-4096 Key successfully linked to Verified Email.
+* Outcome: GitHub 'Verified' badge active on repository commits.
+* Security Impact: Prevents 'Commit Spoofing' and ensures all 
+  code changes for dejavuprotects.net are authentically signed.
+================================================================
