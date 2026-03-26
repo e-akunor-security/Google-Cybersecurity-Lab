@@ -814,3 +814,13 @@ TROUBLESHOOTING: CREDENTIAL HELPER SYNTAX
   space-separated subcommands.
 * Reminder: HTTPS pushes require a PAT (Personal Access Token).
 ================================================================
+
+----------------------------------------------------------------
+VALIDATION: SIGNATURE VISUAL AUDIT
+----------------------------------------------------------------
+* Expected UI: Green 'Verified' badge on GitHub web interface.
+* Common Failure: Email mismatch between Git config and GPG UID.
+* Debug Command: git log --show-signature
+* Significance: A 'Verified' badge provides 'Non-repudiation'—
+  absolute proof of the author's identity.
+================================================================
