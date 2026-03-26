@@ -824,3 +824,13 @@ VALIDATION: SIGNATURE VISUAL AUDIT
 * Significance: A 'Verified' badge provides 'Non-repudiation'—
   absolute proof of the author's identity.
 ================================================================
+
+----------------------------------------------------------------
+INFRASTRUCTURE: MULTI-LEVEL IDENTITY SYNC
+----------------------------------------------------------------
+* Requirement: Global Git 'user.email' must match GPG 'UID' email 
+  and GitHub 'Primary' email.
+* Verification: git log -1 --pretty=format:"%ae"
+* Resolution: Manual override of 'user.email' and 'user.name' 
+  to ensure cryptographic 'Verified' status on remote.
+================================================================
