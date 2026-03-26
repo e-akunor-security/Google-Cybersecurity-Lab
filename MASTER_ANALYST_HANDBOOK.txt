@@ -965,3 +965,12 @@ MILESTONE: INFRASTRUCTURE SECURED (SSH + GPG)
 * Reflection: Resolved HTTPS malformed URL and PAT rejection 
   through architectural migration to SSH.
 ================================================================
+
+----------------------------------------------------------------
+ROADMAP: TERMINAL MAIL INTEGRATION (MTA)
+----------------------------------------------------------------
+* Tooling: msmtp / msmtp-mta
+* Objective: Utilize GPG-encrypted payloads via CLI transport.
+* Pending: Configuration of ~/.msmtprc for SMTP relay.
+* Goal: Automated secure reporting from the CyberLab environment.
+================================================================
