@@ -901,3 +901,56 @@ MILESTONE: FULL CRYPTOGRAPHIC IDENTITY SYNC
 * Security Impact: Prevents 'Commit Spoofing' and ensures all 
   code changes for dejavuprotects.net are authentically signed.
 ================================================================
+
+----------------------------------------------------------------
+FIX: MANUAL CREDENTIAL INJECTION
+----------------------------------------------------------------
+* Method: Manual creation of ~/.git-credentials.
+* Syntax: https://[USER]:[TOKEN]@github.com
+* Reason: Bypasses terminal prompt rendering issues and 
+  clipboard/formatting errors during PAT entry.
+* Security Warning: Ensure this file is hidden (chmod 600) so 
+  other users on the system cannot read your token.
+================================================================
+
+----------------------------------------------------------------
+AUDIT: AUTHENTICATION PERSISTENCE FAILURE
+----------------------------------------------------------------
+* Status: Investigating PAT (Personal Access Token) rejection.
+* Checks: 1. Verified GitHub Web Login. 2. Cleared local helpers.
+* Theory: Potential 'Scope' mismatch (Token missing 'repo' rights) 
+  or hidden character injection during terminal paste.
+* Next Action: Regenerate PAT with full 'repo' scopes if 
+  failure persists.
+================================================================
+
+----------------------------------------------------------------
+INFRASTRUCTURE: MIGRATION TO SSH AUTHENTICATION
+----------------------------------------------------------------
+* Reason: Persistent HTTPS/PAT authentication failures.
+* Algorithm: ED25519 (Elliptic Curve Cryptography).
+* Benefit: Eliminates 'Credential Store' conflicts; utilizes 
+  asymmetric handshake for repository access.
+* Verification: git remote set-url origin git@github.com...
+================================================================
+
+----------------------------------------------------------------
+INFRASTRUCTURE: SSH TUNNEL ESTABLISHED
+----------------------------------------------------------------
+* Protocol: SSH (Secure Shell) via ED25519.
+* Key Location: ~/.ssh/id_ed25519
+* Advantage: Asymmetric handshake replaces vulnerable PAT 
+  (Personal Access Token) strings in terminal history.
+* Result: Seamless authentication for GitHub pushes.
+================================================================
+
+----------------------------------------------------------------
+MILESTONE: INFRASTRUCTURE SECURED (SSH + GPG)
+----------------------------------------------------------------
+* Status: SUCCESS.
+* Auth Method: SSH (Elliptic Curve ED25519).
+* Integrity: GPG Signing (RSA-4096) Active.
+* Validation: Authentication Handshake verified via 'ssh -T'.
+* Reflection: Resolved HTTPS malformed URL and PAT rejection 
+  through architectural migration to SSH.
+================================================================
