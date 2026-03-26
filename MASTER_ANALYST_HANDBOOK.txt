@@ -750,3 +750,14 @@ CRYPTOGRAPHY: GPG FILE SECURITY
   steals the physical drive or SQLite DB, the data is unreadable.
 * Tooling: GPG (GNU Privacy Guard) / OpenSSL.
 ================================================================
+
+----------------------------------------------------------------
+INFRASTRUCTURE: GPG ASYMMETRIC KEYPAIR
+----------------------------------------------------------------
+* Algorithm: RSA 4096-bit (High Entropy).
+* Public Key Exported: ~/Desktop/emmanuel_public_key.asc
+* Use Case 1: File Integrity (Signing files/commits).
+* Use Case 2: Confidentiality (Receiving encrypted PII).
+* Security Note: Private key is stored in ~/.gnupg/ and protected 
+  by a local passphrase. NEVER share the .gnupg folder.
+================================================================
