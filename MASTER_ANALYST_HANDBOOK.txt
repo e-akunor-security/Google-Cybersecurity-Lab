@@ -773,3 +773,13 @@ VALIDATION: GPG ASYMMETRIC HANDSHAKE
 * Status: SUCCESS. Private key successfully unlocked the 
   public-key-encrypted payload.
 ================================================================
+
+----------------------------------------------------------------
+CRYPTOGRAPHY: EMAIL & TRANSPORT SECURITY
+----------------------------------------------------------------
+* Principle: GPG encrypts the 'Object' (File), not the 'Socket' (Email).
+* Workflow: Encrypt File -> Attach to Mail -> Recipient Decrypts.
+* Terminal Tools: 'mutt' / 'neomutt' for CLI email management.
+* Dependency: Recipient's Public Key must be present in the local 
+  keyring (~/.gnupg/pubring.kbx) before encryption is possible.
+================================================================
