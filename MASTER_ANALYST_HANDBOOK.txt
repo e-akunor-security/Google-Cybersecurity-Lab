@@ -983,3 +983,14 @@ SESSION CLOSE: MARCH 26, 2026
 * REPOSITORY: Sync'd and Verified (GitHub)
 * PENDING: MTA Configuration (msmtp)
 ================================================================
+
+----------------------------------------------------------------
+SECURITY: GOOGLE APP PASSWORD INTEGRATION
+----------------------------------------------------------------
+* Protocol: SMTP via App-Specific Password (ASP).
+* Requirement: 2-Step Verification (2FA) must be active.
+* Advantage: Allows legacy CLI tools (msmtp) to authenticate 
+  without exposing the primary account password.
+* Revocation: Can be instantly revoked via Google Security 
+  Dashboard if the Dell Latitude is compromised.
+================================================================
