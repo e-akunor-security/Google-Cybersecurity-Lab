@@ -994,3 +994,13 @@ SECURITY: GOOGLE APP PASSWORD INTEGRATION
 * Revocation: Can be instantly revoked via Google Security 
   Dashboard if the Dell Latitude is compromised.
 ================================================================
+
+----------------------------------------------------------------
+TROUBLESHOOTING: SMTP AUTHENTICATION FAILURE (535-5.7.8)
+----------------------------------------------------------------
+* Error: 'Username and Password not accepted'.
+* Root Cause: Google App Passwords must be entered as a continuous 
+  string without spaces (e.g., 'abcdefghijklmnop').
+* Resolution: Cleaned ~/.msmtprc password string and verified 
+  via 'msmtp -v' debug output.
+================================================================
