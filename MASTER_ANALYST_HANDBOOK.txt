@@ -1014,3 +1014,12 @@ AUDIT: SMTP AUTHENTICATION FLOW (FINAL)
   to eliminate hidden trailing whitespace characters.
 * Verification Tool: msmtp -v (Verbose Debugging).
 ================================================================
+
+----------------------------------------------------------------
+INFRASTRUCTURE: SMTP AUTH METHOD PIVOT
+----------------------------------------------------------------
+* Change: Forced 'auth login' over 'auth plain'.
+* Reason: Resolution of 535 5.7.8 error in Linux Mint environment.
+* Technicality: Discretizing credential transmission to satisfy 
+  Gmail's enhanced security filters.
+================================================================
