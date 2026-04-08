@@ -1043,3 +1043,12 @@ ARCHITECTURAL RECAP: THE SECURE STACK
 3. SMTP: Encrypted Remote Reporting (msmtp via TLS 1.3)
 4. GIT: Verified Supply Chain (GPG Signed Commits)
 ================================================================
+
+----------------------------------------------------------------
+PROCEDURE: ENCRYPTED TERMINAL EMAIL (GPG + MSMTP)
+----------------------------------------------------------------
+1. Target: Encrypt and transmit sensitive data via CLI.
+2. Command: gpg --encrypt --armor --recipient [EMAIL] [FILE]
+3. Transport: (echo "Subject: Title"; echo ""; cat [FILE].asc) | msmtp [EMAIL]
+4. Security Note: Always use --armor to ensure SMTP compatibility.
+================================================================
