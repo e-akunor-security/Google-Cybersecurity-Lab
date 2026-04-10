@@ -1074,3 +1074,13 @@ LAB: DNS RESOLUTION ANALYSIS
 * Security Insight: Monitoring DNS is vital for detecting DGA 
   (Domain Generation Algorithms) used by malware.
 ================================================================
+
+----------------------------------------------------------------
+LAB: PACKET TRIAGE & THE TCP HANDSHAKE
+----------------------------------------------------------------
+* Technique 1: 'Follow TCP Stream' to reconstruct conversations.
+* Technique 2: 'Statistics > Conversations' to find top talkers.
+* Protocol: TCP 3-Way Handshake (SYN -> SYN-ACK -> ACK).
+* Visual Triage: Black/Red packets indicate errors or resets—
+  high priority for security investigations.
+================================================================
