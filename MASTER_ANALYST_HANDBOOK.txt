@@ -1084,3 +1084,12 @@ LAB: PACKET TRIAGE & THE TCP HANDSHAKE
 * Visual Triage: Black/Red packets indicate errors or resets—
   high priority for security investigations.
 ================================================================
+
+----------------------------------------------------------------
+SESSION CLOSE: APRIL 10, 2026
+----------------------------------------------------------------
+* STATUS: Network Analysis Module Initiated.
+* TOOLS: Wireshark (Live Capture).
+* SKILLS: DNS/ICMP Filtering, Conversation Triage, Port ID.
+* NEXT: Identifying Malicious Traffic Patterns & Filter Mastery.
+================================================================
