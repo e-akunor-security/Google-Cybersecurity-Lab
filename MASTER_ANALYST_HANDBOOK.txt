@@ -1052,3 +1052,14 @@ PROCEDURE: ENCRYPTED TERMINAL EMAIL (GPG + MSMTP)
 3. Transport: (echo "Subject: Title"; echo ""; cat [FILE].asc) | msmtp [EMAIL]
 4. Security Note: Always use --armor to ensure SMTP compatibility.
 ================================================================
+
+----------------------------------------------------------------
+LAB: WIRESHARK BASICS & ICMP ANALYSIS
+----------------------------------------------------------------
+* Command: sudo wireshark
+* Key Concept: ICMP (Internet Control Message Protocol) - Used 
+  for 'ping' and diagnostic 'heartbeats'.
+* Observation: Captured Request (Type 8) and Reply (Type 0).
+* Decryption Recap: Recipient must use their PRIVATE key to 
+  unlock a message encrypted with their PUBLIC key.
+================================================================
