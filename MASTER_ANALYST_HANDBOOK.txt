@@ -1063,3 +1063,14 @@ LAB: WIRESHARK BASICS & ICMP ANALYSIS
 * Decryption Recap: Recipient must use their PRIVATE key to 
   unlock a message encrypted with their PUBLIC key.
 ================================================================
+
+----------------------------------------------------------------
+LAB: DNS RESOLUTION ANALYSIS
+----------------------------------------------------------------
+* Filter: dns
+* Concept: Domain Name System - The 'Phonebook' of the web.
+* Observation: Port 53 traffic. Verified the mapping of a human-
+  readable URL to a machine-readable IP address.
+* Security Insight: Monitoring DNS is vital for detecting DGA 
+  (Domain Generation Algorithms) used by malware.
+================================================================
