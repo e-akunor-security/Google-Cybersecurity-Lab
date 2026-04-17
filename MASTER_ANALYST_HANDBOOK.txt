@@ -1093,3 +1093,13 @@ SESSION CLOSE: APRIL 10, 2026
 * SKILLS: DNS/ICMP Filtering, Conversation Triage, Port ID.
 * NEXT: Identifying Malicious Traffic Patterns & Filter Mastery.
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: DIGITAL IMAGE FORENSICS (OSINT)
+----------------------------------------------------------------
+* Challenge: WhatsApp strips EXIF/Metadata by default.
+* Workaround: Request image as 'Document' or via Email.
+* Tools: ExifTool (Metadata), Reverse Image Search (Visual).
+* Goal: Verify location of subject via background landmarks 
+  and available timestamp data.
+================================================================
