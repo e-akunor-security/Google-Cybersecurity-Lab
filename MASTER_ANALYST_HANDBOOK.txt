@@ -1103,3 +1103,13 @@ INVESTIGATION: DIGITAL IMAGE FORENSICS (OSINT)
 * Goal: Verify location of subject via background landmarks 
   and available timestamp data.
 ================================================================
+
+----------------------------------------------------------------
+AUTHENTICATION LOGIC: SSH VS HTTPS
+----------------------------------------------------------------
+* Protocol: SSH (Current Config)
+* Prompt: "Enter passphrase for key..." 
+* Input: Local SSH Passphrase (NOT GitHub Password/PAT).
+* Backup: If using HTTPS on a new machine, use the PAT (pH code) 
+  in the password field.
+================================================================
