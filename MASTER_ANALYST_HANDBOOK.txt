@@ -1113,3 +1113,11 @@ AUTHENTICATION LOGIC: SSH VS HTTPS
 * Backup: If using HTTPS on a new machine, use the PAT (pH code) 
   in the password field.
 ================================================================
+
+----------------------------------------------------------------
+DECISION TREE: TERMINAL AUTHENTICATION
+----------------------------------------------------------------
+* Protocol SSH: Use SSH PASSPHRASE (Stored in your memory).
+* Protocol HTTPS: Use PAT/pH CODE (Stored in your secure notes).
+* Rule: Standard GitHub Web Passwords NEVER work in the terminal.
+================================================================
