@@ -1174,3 +1174,14 @@ INVESTIGATION: GEOSPATIAL TRIANGULATION (TRANSIT)
     3. Cross-reference transit types with regional databases.
 * Goal: Narrow the search to a specific city or transit corridor.
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: TOOL-CHAIN AUDIT & PIVOT
+----------------------------------------------------------------
+* Decision: Abandoning 'Sherlock' due to environmental stability 
+  issues (PEP 668) and repository maintenance lag.
+* Pivot: Prioritizing 'Manual Reconnaissance' (Google Dorking 
+  & Visual OSINT).
+* Rationale: Manual search avoids 'noisy' API triggers and 
+  bypasses broken dependencies.
+================================================================
