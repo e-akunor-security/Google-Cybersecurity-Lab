@@ -1222,3 +1222,15 @@ INVESTIGATION: PORTRAIT & ARTIFACT ANALYSIS
 * Note: Analyze subject-centric traits to build a 'Pattern of Life' 
   profile when geospatial markers (roads/buildings) are absent.
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: INTERIOR FORENSICS (HOME AS PROXY)
+----------------------------------------------------------------
+* Context: Subject identified in a residential interior (Door-facing).
+* Forensic Focus:
+    1. Door Hardware & Construction (High-security vs. standard).
+    2. Threshold/Floor Architecture (Climate/Dust/Flood mitigation).
+    3. Light Orientation (Sun angle vs. time of day).
+* Strategy: Treat the home interior as an 'Environmental Proxy' 
+  to infer regional climate and economic standards.
+================================================================
