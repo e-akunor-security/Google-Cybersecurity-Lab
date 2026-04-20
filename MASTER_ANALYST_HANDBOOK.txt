@@ -1130,3 +1130,13 @@ IDENTITY AUDIT: PROFILE VERIFICATION
 * Authentication: SSH (Primary) / PAT (Backup)
 * Verified Badge: Enabled via GPG Signing
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: TIKTOK OSINT PIVOT
+----------------------------------------------------------------
+* Source: TikTok Video/Photo.
+* Methodology: Visual landmark analysis and Username Correlation.
+* Tooling: Sherlock (Social Media Account Discovery).
+* Key Indicators: Regional hashtags, architectural styles, and 
+  social graph (following/followers).
+================================================================
