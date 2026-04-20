@@ -1197,3 +1197,15 @@ AUDIT: SEARCH TOOL DIFFERENTIATION
 * Rule: For OSINT investigations, use the Camera Icon in 
   'Google Images' to trace a photo's origin.
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: NEGATIVE INTELLIGENCE LOG
+----------------------------------------------------------------
+* Status: Digital trail cold (TikTok-only footprint).
+* Pivot: Moving from 'Digital Recon' to 'Visual Content Analysis'.
+* Methodology: Deductive reasoning based on climate, transit 
+  infrastructure (steering wheel position/side-of-road), and 
+  environmental markers.
+* Note: 'Negative Intelligence' confirmed (subject is likely not 
+  on standard professional platforms like LinkedIn/FB).
+================================================================
