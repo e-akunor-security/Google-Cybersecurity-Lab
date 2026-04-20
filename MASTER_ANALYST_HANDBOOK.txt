@@ -1209,3 +1209,16 @@ INVESTIGATION: NEGATIVE INTELLIGENCE LOG
 * Note: 'Negative Intelligence' confirmed (subject is likely not 
   on standard professional platforms like LinkedIn/FB).
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: PORTRAIT & ARTIFACT ANALYSIS
+----------------------------------------------------------------
+* Context: Environment obscured; focusing on subject-centric data.
+* Indicators:
+    1. Clothing (Color/Material): Clue to climate and socio-economic context.
+    2. Accessories (Eyewear): Style as a cultural/personal indicator.
+    3. Lighting/Setting: Semi-open spaces (courtyards/balconies) as 
+       environmental proxies.
+* Note: Analyze subject-centric traits to build a 'Pattern of Life' 
+  profile when geospatial markers (roads/buildings) are absent.
+================================================================
