@@ -1163,3 +1163,14 @@ INVESTIGATION: GEOSPATIAL TRIANGULATION (TRANSIT)
     3. Cross-reference transit types with regional databases.
 * Goal: Narrow the search to a specific city or transit corridor.
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: GEOSPATIAL TRIANGULATION (TRANSIT)
+----------------------------------------------------------------
+* Context: Subject captured in transit (outside/in a ride).
+* Objectives:
+    1. Identify 'Side-of-Road' and 'License Plate' patterns.
+    2. Document unique infrastructure (utility poles, signage).
+    3. Cross-reference transit types with regional databases.
+* Goal: Narrow the search to a specific city or transit corridor.
+================================================================
