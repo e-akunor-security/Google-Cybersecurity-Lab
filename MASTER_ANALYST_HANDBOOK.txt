@@ -1185,3 +1185,15 @@ INVESTIGATION: TOOL-CHAIN AUDIT & PIVOT
 * Rationale: Manual search avoids 'noisy' API triggers and 
   bypasses broken dependencies.
 ================================================================
+
+----------------------------------------------------------------
+AUDIT: SEARCH TOOL DIFFERENTIATION
+----------------------------------------------------------------
+* Google Search (google.com): Searches the *public web* for 
+  information/articles.
+* Google Photos (photos.google.com): Searches your *private* photo library.
+* Google Images (images.google.com): Used for 'Reverse Image 
+  Search' to find the origin of a digital photo.
+* Rule: For OSINT investigations, use the Camera Icon in 
+  'Google Images' to trace a photo's origin.
+================================================================
