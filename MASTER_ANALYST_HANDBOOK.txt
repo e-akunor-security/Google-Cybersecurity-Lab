@@ -1140,3 +1140,15 @@ INVESTIGATION: TIKTOK OSINT PIVOT
 * Key Indicators: Regional hashtags, architectural styles, and 
   social graph (following/followers).
 ================================================================
+
+----------------------------------------------------------------
+INVESTIGATION: MANUAL OSINT STRATEGY
+----------------------------------------------------------------
+* Challenge: Automated tool dependency (Sherlock) failed due to 
+  Python environment restrictions (PEP 668).
+* Strategy: Shift to 'Google Dorking' & Visual Analysis.
+* Investigative Focus:
+    1. Bio/Location tagging in TikTok.
+    2. 'Following' list analysis for regional indicators.
+    3. Cross-platform identity verification via image search.
+================================================================
