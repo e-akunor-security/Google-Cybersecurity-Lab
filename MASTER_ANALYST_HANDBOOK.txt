@@ -1234,3 +1234,23 @@ INVESTIGATION: INTERIOR FORENSICS (HOME AS PROXY)
 * Strategy: Treat the home interior as an 'Environmental Proxy' 
   to infer regional climate and economic standards.
 ================================================================
+
+----------------------------------------------------------------
+INCIDENT CASE STUDY: DEJAVUPROTECTS.NET HARDENING
+----------------------------------------------------------------
+* Status: Mitigation Complete.
+* Primary Strategy: Layered Defense (IP Block + Server Hardening).
+* Tools: Wordfence, LiteSpeed CLI, .htaccess.
+* Protocol: Identified Russia-based botnet -> Blocked at Firewall -> 
+  Hardened wp-config & Permissions -> Disabled Dashboard Editor.
+================================================================
+
+----------------------------------------------------------------
+INCIDENT CASE STUDY: DEJAVUPROTECTS.NET HARDENING
+----------------------------------------------------------------
+* Status: Mitigation Complete.
+* Primary Strategy: Layered Defense (IP Block + Server Hardening).
+* Tools: Wordfence, LiteSpeed CLI, .htaccess.
+* Protocol: Identified Russia-based botnet -> Blocked at Firewall -> 
+  Hardened wp-config & Permissions -> Disabled Dashboard Editor.
+================================================================
