@@ -1254,3 +1254,12 @@ INCIDENT CASE STUDY: DEJAVUPROTECTS.NET HARDENING
 * Protocol: Identified Russia-based botnet -> Blocked at Firewall -> 
   Hardened wp-config & Permissions -> Disabled Dashboard Editor.
 ================================================================
+
+----------------------------------------------------------------
+PORTFOLIO AUDIT: ATTACKER ATTRIBUTES
+----------------------------------------------------------------
+* Documented IP Range: 92.118.0.0/16 (Russia)
+* Targeted Asset: dejavuprotects.net
+* Defense Method: iptables DROP & LiteSpeed configuration hardening
+* Portfolio Link: Upwork - Cyber Engineer Section
+================================================================
