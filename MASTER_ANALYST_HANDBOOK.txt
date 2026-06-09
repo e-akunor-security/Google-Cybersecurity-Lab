@@ -1288,3 +1288,13 @@ APPLICATION HARDENING: WPFORMS LITE SPAM MITIGATION
     3. Integrated API-based background behavior verification (Turnstile/reCAPTCHA).
 * Result: Automated bot-driven POST requests successfully dropped at the app layer.
 ================================================================
+
+----------------------------------------------------------------
+LOCATION AUDIT: WPFORMS SECURITY INTERFACE
+----------------------------------------------------------------
+* Correct Navigation Path: WPForms > All Forms > Edit Form > 
+  Settings (Left Bar) > Spam Protection and Security.
+* Note: Global security options (like CAPTCHA API keys) are in the 
+  main dashboard settings, but individual form rules live inside 
+  the specific form builder utility.
+================================================================
