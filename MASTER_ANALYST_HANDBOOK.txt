@@ -1309,3 +1309,14 @@ VERIFICATION: APP-LAYER SPAM DEFENSE TESTING
   prevented backend mail relay.
 * Baseline: Normal human-speed interactions remain unaffected.
 ================================================================
+
+----------------------------------------------------------------
+PENTEST PROTOCOL: APP-LAYER VALIDATION
+----------------------------------------------------------------
+* Observation: Admin-session bypass confirmed. WPForms waives spam 
+  checks for active Administrator accounts.
+* Correct Testing Rule: All security controls must be verified via 
+  unauthenticated, clean sessions (Incognito mode).
+* Execution: Clear session cookies -> Access via guest window -> 
+  Execute rapid submission test -> Validate system rejection.
+================================================================
