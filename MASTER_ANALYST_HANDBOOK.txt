@@ -1275,3 +1275,16 @@ INCIDENT LOG: CONTACT FORM SPAM INJECTION
     1. Deploy hidden CSS Honeypot fields.
     2. Integrate invisible reCAPTCHA v3/hCaptcha layer.
 ================================================================
+
+----------------------------------------------------------------
+APPLICATION HARDENING: WPFORMS LITE SPAM MITIGATION
+----------------------------------------------------------------
+* Date: 2026-06-09
+* Implementation Target: dejavuprotects.net Contact Form
+* Plugin Context: WPForms Lite
+* Hardening Executed:
+    1. Enabled 'Modern Anti-Spam Protection' (Cryptographic Honeypot token).
+    2. Enforced 'Minimum Time to Submit' filter (3-second execution floor).
+    3. Integrated API-based background behavior verification (Turnstile/reCAPTCHA).
+* Result: Automated bot-driven POST requests successfully dropped at the app layer.
+================================================================
