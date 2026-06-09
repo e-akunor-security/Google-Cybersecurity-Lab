@@ -1263,3 +1263,15 @@ PORTFOLIO AUDIT: ATTACKER ATTRIBUTES
 * Defense Method: iptables DROP & LiteSpeed configuration hardening
 * Portfolio Link: Upwork - Cyber Engineer Section
 ================================================================
+
+----------------------------------------------------------------
+INCIDENT LOG: CONTACT FORM SPAM INJECTION
+----------------------------------------------------------------
+* Detection Date: 2026-06-09
+* Target Asset: dejavuprotects.net (Contact Form Mechanism)
+* Indicators: Automated POST requests, .ru domains, Cyrillic payloads.
+* Threat Vector: Automated form-filler scripts bypassing frontend UX.
+* Recommended Countermeasures: 
+    1. Deploy hidden CSS Honeypot fields.
+    2. Integrate invisible reCAPTCHA v3/hCaptcha layer.
+================================================================
