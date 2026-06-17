@@ -1363,3 +1363,14 @@ DEPLOYMENT COMPLETED: BEHAVIORAL CHALLENGE INJECTION
 * Technical Outcome: Eliminates headless browser emulation vectors 
   by verifying browser telemetry before processing form execution.
 ================================================================
+
+----------------------------------------------------------------
+INCIDENT POST-MORTEM & CLOSURE RESOLUTION
+----------------------------------------------------------------
+* Closure Timestamp: 2026-06-17
+* Case Status: RESOLVED & ARMED
+* Summary: Successfully mitigated a persistent, adaptive Russian-origin 
+  botnet targeting form endpoints by executing an API-level deployment 
+  of Cloudflare Turnstile.
+* Metrics: Headless browser emulation dropped; zero human user friction.
+================================================================
