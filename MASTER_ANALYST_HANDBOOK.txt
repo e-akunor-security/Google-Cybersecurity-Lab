@@ -1331,3 +1331,14 @@ INCIDENT STATUS: CLOSED / RESOLVED
   honeypot and time-threshold restrictions deployed via WPForms. 
   Post-mitigation monitoring phase initiated.
 ================================================================
+
+----------------------------------------------------------------
+RISK ASSESSMENT: APPLICATION NOISE VS. THREAT
+----------------------------------------------------------------
+* Incident: Persistent contact form spam via headless browsers.
+* Threat Level: LOW (Informational / Noise).
+* Confidentiality/Integrity/Availability Impact: 0%
+* Operational Impact: Minor inbox clutter.
+* Resolution Path: Optional deployment of Cloudflare Turnstile 
+  to eliminate noise and optimize portfolio documentation.
+================================================================
